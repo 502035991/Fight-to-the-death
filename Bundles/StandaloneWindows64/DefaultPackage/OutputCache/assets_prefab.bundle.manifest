@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 3123636822
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4ee3cad14818c96556e304400252dc3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b757fe907c8f9a2089958beaaeb052d4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefab/Player.prefab
+Dependencies:
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_aa_universalcharacter_materials.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_aa_universalcharacter_meshes.bundle

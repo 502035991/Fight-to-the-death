@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1264546110
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 444e7716e539e6e229a72559cd1f8ce4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat
+Dependencies:
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_aa_universalcharacter_textures.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/unityshaders.bundle
