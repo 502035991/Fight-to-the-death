@@ -28,6 +28,34 @@
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 1
+        },
+        {
+            "Address": "Netcode Manager",
+            "AssetPath": "Assets/Prefab/WorldManager/Netcode Manager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Player Input Manager",
+            "AssetPath": "Assets/Prefab/WorldManager/Player Input Manager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "PlayerUiManager",
+            "AssetPath": "Assets/Prefab/WorldManager/PlayerUiManager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "ParrelSyncProjectSettings",
+            "AssetPath": "Assets/Plugins/ParrelSync/ScriptableObjects/ParrelSyncProjectSettings.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
         }
     ],
     "BundleList": [
@@ -36,7 +64,7 @@
             "UnityCRC": 0,
             "FileHash": "19f37db822f680cb77186410684d00e3",
             "FileCRC": "00000000",
-            "FileSize": 281816,
+            "FileSize": 287428,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -46,7 +74,27 @@
             "UnityCRC": 0,
             "FileHash": "53832ee90f62233343b3dc2e5cc6fe6f",
             "FileCRC": "00000000",
-            "FileSize": 236713,
+            "FileSize": 239586,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_prefab_worldmanager.bundle",
+            "UnityCRC": 0,
+            "FileHash": "26049dcd9496d444e525fe980a915f2f",
+            "FileCRC": "00000000",
+            "FileSize": 5695,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_plugins_parrelsync_scriptableobjects.bundle",
+            "UnityCRC": 0,
+            "FileHash": "bce80438355376397c582874a1c3974f",
+            "FileCRC": "00000000",
+            "FileSize": 450,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []

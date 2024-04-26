@@ -1,19 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using YooAsset;
 
-public class MainPanel : MonoBehaviour
+namespace CX
 {
-    [SerializeField] Button startBtn;
+    public class MainPanel : MonoBehaviour
+    {
+        [SerializeField] Button startBtn;
 
-    private void Start()
-    {
-        startBtn.onClick.AddListener(StartGame);
-    }
-    private void StartGame()
-    {
-        YooAssets.LoadSceneAsync("Assets/Scenes/GameScene.unity");
+        private void Start()
+        {
+            startBtn.onClick.AddListener(StartBtnFunction);
+        }
+        private void StartBtnFunction()
+        {
+            StartNetworkAsHost();
+            StartGame();
+        }
+        private void StartNetworkAsHost()
+        {
+            if (ParrelSync.ClonesManager.IsClone())
+            {
+                NetworkManager.Singleton.Shutdown();
+
+                NetworkManager.Singleton.StartClient();
+            }
+            else
+            {
+                NetworkManager.Singleton.StartHost();
+            }
+        }
+        private void StartGame()
+        {
+            YooAssets.LoadSceneAsync("Assets/Scenes/GameScene.unity", LoadSceneMode.Single);
+        }
     }
 }
+
