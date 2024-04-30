@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 namespace CX 
@@ -13,9 +14,11 @@ namespace CX
         public float moveAmout;
 
         private Vector3 moveDirection;
+        private Vector3 targetDirection;
 
         [SerializeField] float walkingSpeed = 2;
         [SerializeField] float runningSpeed = 5;
+        [SerializeField] float rotationSpeed = 15;
 
         protected override void Awake()
         {
@@ -25,6 +28,7 @@ namespace CX
         public void HandleAllMovement()
         {
             HandleGroundedMovement();
+            HandleRotation();
         }
         private void GetVerticalAndHorizontalInputs()
         {
@@ -48,6 +52,24 @@ namespace CX
             {
                 player.characterController.Move(moveDirection * walkingSpeed * Time.deltaTime);
             }
+        }
+        private void HandleRotation()
+        {
+            targetDirection = Vector3.zero;
+            targetDirection = PlayerCamera.instance.cameraObject.transform.forward * verticalMovement;
+            targetDirection += PlayerCamera.instance.cameraObject.transform.right * horizontalMovement;
+            targetDirection.Normalize();
+            targetDirection.y = 0;
+
+
+            if(targetDirection == Vector3.zero)
+            {
+                targetDirection = transform.forward;
+            }
+
+            Quaternion newRotation = Quaternion.LookRotation(targetDirection);
+            quaternion targetRotation = Quaternion.Lerp(transform.rotation, newRotation, rotationSpeed * Time.deltaTime);
+            transform.rotation = targetRotation;
         }
     }
 }

@@ -23,6 +23,7 @@ namespace CX
             if (IsOwner)                
             {
                 characterNetworkManager.networkPosition.Value = transform.position;
+                characterNetworkManager.networRotation.Value = transform.rotation;
             }
             else
             {
@@ -30,8 +31,16 @@ namespace CX
                     transform.position,
                     characterNetworkManager.networkPosition.Value ,
                     ref characterNetworkManager.networkPositionVelocity,
-                    characterNetworkManager.networkPositionSmoothTime); 
+                    characterNetworkManager.networkPositionSmoothTime);
+
+                transform.rotation = Quaternion.Slerp(transform.rotation, 
+                    characterNetworkManager.networRotation.Value,
+                    characterNetworkManager.networkRotationSmoothTime);
             }
+
+        }
+        protected virtual void LateUpdate()
+        {
 
         }
     }

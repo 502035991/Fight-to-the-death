@@ -9,11 +9,16 @@ namespace CX
         public static PlayerInputManager instance;
         PlayerControls playerControls;
 
-        
+        [Header("movement input")]
         [SerializeField] Vector2 movementInput;
         public float verticalInput;
         public float horizontalInput;
         public float moveAmount;
+
+        [Header("camera input")]
+        [SerializeField] Vector2 cameraInput;
+        public float cameraVerticalInput;
+        public float cameraHorizontalInput;
 
         private void Awake()
         {
@@ -33,10 +38,28 @@ namespace CX
 
             instance.enabled = false;            
         }
+        private void OnEnable()
+        {
+            if (playerControls == null)
+            {
+                playerControls = new PlayerControls();
+
+                playerControls.PlayerMovement.Movement.performed += SetMovementInput;
+                playerControls.PlayerCamera.CameraControls.performed += i => cameraInput = i.ReadValue<Vector2>();
+            }
+
+            playerControls.Enable();
+        }
         private void Update()
         {
             HandleMovementInput();
-        }       
+            HandleCameraMovementInput();
+        }
+        private void OnDestroy()
+        {
+            SceneManager.activeSceneChanged -= OnSceneChange;
+        }
+        //拿到玩家移动值
         private void HandleMovementInput()
         {
             horizontalInput =movementInput.x;
@@ -53,6 +76,13 @@ namespace CX
                 moveAmount = 1;
             }
         }
+        //拿到相机移动值
+        private void HandleCameraMovementInput()
+        {
+            cameraHorizontalInput = cameraInput.x;
+            cameraVerticalInput = cameraInput.y;
+        }
+        //根据场景来决定是否允许玩家移动输入
         private void OnSceneChange(Scene oldScene, Scene newScene)
         {
             if (newScene.name == "GameScene")
@@ -64,24 +94,12 @@ namespace CX
                 instance.enabled = false;
             }
         }
-        private void OnEnable()
-        {
-            if(playerControls == null)
-            {
-                playerControls = new PlayerControls();
-                playerControls.PlayerMovement.Movement.performed += SetMovementInput;
-            }
 
-            playerControls.Enable();
-        }
         private void SetMovementInput(InputAction.CallbackContext input)
         {
             movementInput = input.ReadValue<Vector2>();
         }
-        private void OnDestroy()
-        {
-            SceneManager.activeSceneChanged -= OnSceneChange;
-        }
+        //切后台中断控制
         private void OnApplicationFocus(bool focus)
         {
             if(enabled)
