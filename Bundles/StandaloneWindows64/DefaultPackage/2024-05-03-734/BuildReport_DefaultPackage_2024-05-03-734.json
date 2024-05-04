@@ -1,0 +1,374 @@
+{
+    "Summary": {
+        "YooVersion": "2.1.1",
+        "UnityVersion": "2022.3.2f1",
+        "BuildDate": "2024/5/3 12:14:21",
+        "BuildSeconds": 4,
+        "BuildTarget": 19,
+        "BuildMode": 0,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2024-05-03-734",
+        "UniqueBundleName": false,
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "IgnoreDefaultType": true,
+        "AutoCollectShaders": true,
+        "EnableSharePackRule": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 22,
+        "MainAssetTotalCount": 7,
+        "AllBundleTotalCount": 16,
+        "AllBundleTotalSize": 1578043,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "GameScene",
+            "AssetPath": "Assets/Scenes/GameScene.unity",
+            "AssetGUID": "4757f41d843dda34eb19fd35cc6466ea",
+            "AssetTags": [],
+            "MainBundleName": "assets_scenes.bundle",
+            "MainBundleSize": 244521,
+            "DependAssets": [
+                "Assets/Others/material/New Material.mat",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "MainScene",
+            "AssetPath": "Assets/Scenes/MainScene.unity",
+            "AssetGUID": "99c9720ab356a0642a771bea13969a05",
+            "AssetTags": [],
+            "MainBundleName": "assets_scenes.bundle",
+            "MainBundleSize": 244521,
+            "DependAssets": [
+                "Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputSystemUIInputModule@64.png",
+                "Assets/Others/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+                "Assets/Art/Prefab/Player.prefab",
+                "Assets/Art/Prefab/WorldManager/PlayerUiManager.prefab",
+                "Assets/Others/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Assets/Art/Prefab/WorldManager/Player Input Manager.prefab",
+                "Assets/DefaultNetworkPrefabs.asset",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Assets/Art/Prefab/WorldManager/Netcode Manager.prefab",
+                "Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Assets/Others/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader",
+                "Assets/Others/TextMesh Pro/Fonts/LiberationSans.ttf"
+            ]
+        },
+        {
+            "Address": "Player",
+            "AssetPath": "Assets/Art/Prefab/Player.prefab",
+            "AssetGUID": "b4545a699d4edd741ab79c1e1304751a",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_prefab.bundle",
+            "MainBundleSize": 21556,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Netcode Manager",
+            "AssetPath": "Assets/Art/Prefab/WorldManager/Netcode Manager.prefab",
+            "AssetGUID": "31f7cdad19b42a94b93d6032be6d2911",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_prefab_worldmanager.bundle",
+            "MainBundleSize": 2850,
+            "DependAssets": []
+        },
+        {
+            "Address": "Player Input Manager",
+            "AssetPath": "Assets/Art/Prefab/WorldManager/Player Input Manager.prefab",
+            "AssetGUID": "fb7200e9b7e864a4b8726a6c96f0c431",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_prefab_worldmanager.bundle",
+            "MainBundleSize": 2850,
+            "DependAssets": []
+        },
+        {
+            "Address": "PlayerUiManager",
+            "AssetPath": "Assets/Art/Prefab/WorldManager/PlayerUiManager.prefab",
+            "AssetGUID": "0acbe46c570da764cbf63c828fa3fa76",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_prefab_worldmanager.bundle",
+            "MainBundleSize": 2850,
+            "DependAssets": []
+        },
+        {
+            "Address": "ParrelSyncProjectSettings",
+            "AssetPath": "Assets/Plugins/ParrelSync/ScriptableObjects/ParrelSyncProjectSettings.asset",
+            "AssetGUID": "45d75a110524e564cbc34d64c234f979",
+            "AssetTags": [],
+            "MainBundleName": "assets_plugins_parrelsync_scriptableobjects.bundle",
+            "MainBundleSize": 1069,
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_scenes.bundle",
+            "FileName": "0309c79dda793ad0228301a1b60dd38d.bundle",
+            "FileHash": "0309c79dda793ad0228301a1b60dd38d",
+            "FileCRC": "1a2d5da0",
+            "FileSize": 244521,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_art_prefab.bundle",
+                "assets_art_prefab_worldmanager.bundle",
+                "share_assets.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "share_assets_others_material.bundle",
+                "share_assets_others_textmesh pro_fonts.bundle",
+                "share_assets_others_textmesh pro_resources_fonts & materials.bundle",
+                "share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Scenes/GameScene.unity",
+                "Assets/Scenes/MainScene.unity"
+            ]
+        },
+        {
+            "BundleName": "assets_art_prefab.bundle",
+            "FileName": "9b7a64034b7595728c634693b6bd1558.bundle",
+            "FileHash": "9b7a64034b7595728c634693b6bd1558",
+            "FileCRC": "18456094",
+            "FileSize": 21556,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Art/Prefab/Player.prefab"
+            ]
+        },
+        {
+            "BundleName": "assets_art_prefab_worldmanager.bundle",
+            "FileName": "576c9dac1c93c7459d7c19cf77147db2.bundle",
+            "FileHash": "576c9dac1c93c7459d7c19cf77147db2",
+            "FileCRC": "22848f70",
+            "FileSize": 2850,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Art/Prefab/WorldManager/Netcode Manager.prefab",
+                "Assets/Art/Prefab/WorldManager/Player Input Manager.prefab",
+                "Assets/Art/Prefab/WorldManager/PlayerUiManager.prefab"
+            ]
+        },
+        {
+            "BundleName": "assets_plugins_parrelsync_scriptableobjects.bundle",
+            "FileName": "817578bce8bd029246f5f7ab156bd98e.bundle",
+            "FileHash": "817578bce8bd029246f5f7ab156bd98e",
+            "FileCRC": "91f8c058",
+            "FileSize": 1069,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Plugins/ParrelSync/ScriptableObjects/ParrelSyncProjectSettings.asset"
+            ]
+        },
+        {
+            "BundleName": "share_assets_others_material.bundle",
+            "FileName": "635d6f57df40b7864df663bb8739d42a.bundle",
+            "FileHash": "635d6f57df40b7864df663bb8739d42a",
+            "FileCRC": "8890bf33",
+            "FileSize": 2942,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Others/material/New Material.mat"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "FileName": "c1b7e2f819cc052f2c2eb5c242af02be.bundle",
+            "FileHash": "c1b7e2f819cc052f2c2eb5c242af02be",
+            "FileCRC": "f455db2e",
+            "FileSize": 3022,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat"
+            ]
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "FileName": "89e56b64aa9f4ae38670375cf42f60c4.bundle",
+            "FileHash": "89e56b64aa9f4ae38670375cf42f60c4",
+            "FileCRC": "2eba5db5",
+            "FileSize": 46302,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader",
+                "Assets/Others/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_inputsystem_inputsystem_editor_icons.bundle",
+            "FileName": "b2ec07ad157c52a5515f4691fc2c27c6.bundle",
+            "FileHash": "b2ec07ad157c52a5515f4691fc2c27c6",
+            "FileCRC": "1a1fd70f",
+            "FileSize": 3446,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputSystemUIInputModule@64.png"
+            ]
+        },
+        {
+            "BundleName": "share_assets_others_textmesh pro_resources_fonts & materials.bundle",
+            "FileName": "b9417e80fd5d48c38fe47bd4c9c4d33d.bundle",
+            "FileHash": "b9417e80fd5d48c38fe47bd4c9c4d33d",
+            "FileCRC": "3d7e79ef",
+            "FileSize": 384786,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_others_textmesh pro_fonts.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Others/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+                "Assets/Others/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle",
+            "FileName": "230a6f35cad21876ea65d9bc9d67c99e.bundle",
+            "FileHash": "230a6f35cad21876ea65d9bc9d67c99e",
+            "FileCRC": "9fbd628b",
+            "FileSize": 3822,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd"
+            ]
+        },
+        {
+            "BundleName": "share_assets.bundle",
+            "FileName": "6f2232a4a7e17e608a98f5811908ecc4.bundle",
+            "FileHash": "6f2232a4a7e17e608a98f5811908ecc4",
+            "FileCRC": "b9e02971",
+            "FileSize": 2092,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/DefaultNetworkPrefabs.asset"
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+            "FileName": "8429bb7b6a990eecca0b8baa379defa4.bundle",
+            "FileHash": "8429bb7b6a990eecca0b8baa379defa4",
+            "FileCRC": "e2a4aa29",
+            "FileSize": 547331,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx"
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+            "FileName": "316bfa90bef401345d3c9fa093e489aa.bundle",
+            "FileHash": "316bfa90bef401345d3c9fa093e489aa",
+            "FileCRC": "bec0fa37",
+            "FileSize": 3011,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle",
+            "FileName": "43d74a01f22ac94aefed22cadcf28907.bundle",
+            "FileHash": "43d74a01f22ac94aefed22cadcf28907",
+            "FileCRC": "53e6a711",
+            "FileSize": 7461,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions"
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+            "FileName": "3c197b87e8510b0558dff1b4faf43b71.bundle",
+            "FileHash": "3c197b87e8510b0558dff1b4faf43b71",
+            "FileCRC": "f52e672c",
+            "FileSize": 76559,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png"
+            ]
+        },
+        {
+            "BundleName": "share_assets_others_textmesh pro_fonts.bundle",
+            "FileName": "0a51d297428b8aeb68ce7bc9d9d5a916.bundle",
+            "FileHash": "0a51d297428b8aeb68ce7bc9d9d5a916",
+            "FileCRC": "df7ed759",
+            "FileSize": 227273,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Others/TextMesh Pro/Fonts/LiberationSans.ttf"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

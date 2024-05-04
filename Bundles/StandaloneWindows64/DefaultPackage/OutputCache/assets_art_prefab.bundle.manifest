@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 2977050707
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 62d207929c52fbb293dd5061afbcef8c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 727782c36c794bd1e4e28d8730e468b2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: b44583e07400af844b295c5e6f323bb7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90d9e72ef0c953a48b1593b418a2cd9a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f107ab328f6e2c2478a5e198f244da83, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.Netcode.Runtime
+  ClassName: Unity.Netcode.NetworkVariable`1[UnityEngine.Quaternion]
+- AssemblyName: Unity.Netcode.Runtime
+  ClassName: Unity.Netcode.NetworkVariable`1[UnityEngine.Vector3]
+Assets:
+- Assets/Art/Prefab/Player.prefab
+Dependencies:
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_aa_universalcharacter_materials.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_aa_universalcharacter_meshes.bundle

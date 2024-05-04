@@ -10,6 +10,10 @@ namespace CX
         {
 
         }
+        protected virtual void Update()
+        {
+
+        }
     }
 }
 

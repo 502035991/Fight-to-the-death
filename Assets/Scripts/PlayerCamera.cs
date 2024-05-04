@@ -90,10 +90,10 @@ namespace CX
                 targetCameraZPosition = -( distanceFromHitObject - cameraCollisionRadius );
             }
 
-/*            if(Mathf.Abs(targetCameraZPosition) < cameraCollisionRadius)
+            if (Mathf.Abs(targetCameraZPosition) < cameraCollisionRadius)
             {
                 targetCameraZPosition -= cameraCollisionRadius;
-            }*/
+            }
 
             Debug.DrawRay(cameraPivotTransform.position, direction * Mathf.Abs(targetCameraZPosition), Color.red);
             cameraObjectPosition.z = Mathf.Lerp(cameraObject.transform.localPosition.z, targetCameraZPosition, 0.2f);

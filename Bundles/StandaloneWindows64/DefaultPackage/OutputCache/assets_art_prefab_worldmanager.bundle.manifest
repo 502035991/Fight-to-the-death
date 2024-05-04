@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1751121336
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 517d871afffdbd82b6aa57bd1b35b8c2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: da4afbea39a96387e760952101a30b48
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 80cc8fb6077f7f243a138b12ec36dd15, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e7286f698d6416d48ba9e920477e8d35, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Prefab/WorldManager/PlayerUiManager.prefab
+- Assets/Art/Prefab/WorldManager/Netcode Manager.prefab
+- Assets/Art/Prefab/WorldManager/Player Input Manager.prefab
+Dependencies: []

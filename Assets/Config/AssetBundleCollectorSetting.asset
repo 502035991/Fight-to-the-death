@@ -45,8 +45,8 @@ MonoBehaviour:
         FilterRuleName: CollectAll
         AssetTags: 
         UserData: 
-      - CollectPath: Assets/Prefab
-        CollectorGUID: 76a4cb642c7c28243b9efe6807b5185f
+      - CollectPath: Assets/Art
+        CollectorGUID: 93e9bcf843ead464ead0c81938617a1d
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory

@@ -7,14 +7,22 @@ namespace CX
 {
     public class CharacterManager : NetworkBehaviour
     {
-        public CharacterController characterController;
+        [HideInInspector] public CharacterController characterController;
+        [HideInInspector] public Animator anim;
 
-        public CharacterNetworkManager characterNetworkManager;
+        [HideInInspector] public CharacterNetworkManager characterNetworkManager;
+
+        [Header("Flags")]
+        public bool isPerformingAction = false;
+        public bool applyRootMotion = false;
+        public bool canRotate = true;
+        public bool canMove = true; 
         protected virtual void Awake()
         {
             DontDestroyOnLoad(this);
 
             characterController = GetComponent<CharacterController>();
+            anim = GetComponent<Animator>();
             characterNetworkManager = GetComponent<CharacterNetworkManager>();
         }
 

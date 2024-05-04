@@ -23,29 +23,106 @@
             "BundleID": 0
         },
         {
-            "Address": "Player",
-            "AssetPath": "Assets/Prefab/Player.prefab",
+            "Address": "Idle",
+            "AssetPath": "Assets/Art/Animation/human/Core/Idle.fbx",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 1
         },
         {
-            "Address": "Netcode Manager",
-            "AssetPath": "Assets/Prefab/WorldManager/Netcode Manager.prefab",
+            "Address": "jump",
+            "AssetPath": "Assets/Art/Animation/human/Core/jump.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2
+            "BundleID": 1
         },
         {
-            "Address": "Player Input Manager",
-            "AssetPath": "Assets/Prefab/WorldManager/Player Input Manager.prefab",
+            "Address": "left strafe walking",
+            "AssetPath": "Assets/Art/Animation/human/Core/left strafe walking.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2
+            "BundleID": 1
         },
         {
-            "Address": "PlayerUiManager",
-            "AssetPath": "Assets/Prefab/WorldManager/PlayerUiManager.prefab",
+            "Address": "left strafe",
+            "AssetPath": "Assets/Art/Animation/human/Core/left strafe.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "left turn 90",
+            "AssetPath": "Assets/Art/Animation/human/Core/left turn 90.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "left turn",
+            "AssetPath": "Assets/Art/Animation/human/Core/left turn.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "right strafe walking",
+            "AssetPath": "Assets/Art/Animation/human/Core/right strafe walking.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "right strafe",
+            "AssetPath": "Assets/Art/Animation/human/Core/right strafe.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "right turn 90",
+            "AssetPath": "Assets/Art/Animation/human/Core/right turn 90.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "right turn",
+            "AssetPath": "Assets/Art/Animation/human/Core/right turn.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Rool",
+            "AssetPath": "Assets/Art/Animation/human/Core/Rool.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "running",
+            "AssetPath": "Assets/Art/Animation/human/Core/running.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Walking",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walking.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Walking_Back",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walking_Back.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "S_Waving_Torch_Mono_1",
+            "AssetPath": "Assets/Art/Audio/SoundFX/Actions/S_Waving_Torch_Mono_1.wav",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2
@@ -64,27 +141,27 @@
             "UnityCRC": 0,
             "FileHash": "19f37db822f680cb77186410684d00e3",
             "FileCRC": "00000000",
-            "FileSize": 520633,
+            "FileSize": 526548,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
         },
         {
-            "BundleName": "assets_prefab.bundle",
+            "BundleName": "assets_art_animation_human_core.bundle",
             "UnityCRC": 0,
-            "FileHash": "53832ee90f62233343b3dc2e5cc6fe6f",
+            "FileHash": "1ac01479a14411105fb92e1838fbcac0",
             "FileCRC": "00000000",
-            "FileSize": 239771,
+            "FileSize": 5172762,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
         },
         {
-            "BundleName": "assets_prefab_worldmanager.bundle",
+            "BundleName": "assets_art_audio_soundfx_actions.bundle",
             "UnityCRC": 0,
-            "FileHash": "26049dcd9496d444e525fe980a915f2f",
+            "FileHash": "d0a2ac54816e98f6dff796c127e77847",
             "FileCRC": "00000000",
-            "FileSize": 3730,
+            "FileSize": 132344,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
