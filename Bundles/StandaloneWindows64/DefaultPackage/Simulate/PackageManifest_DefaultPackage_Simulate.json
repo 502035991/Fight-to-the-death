@@ -107,6 +107,13 @@
             "BundleID": 1
         },
         {
+            "Address": "Sprint",
+            "AssetPath": "Assets/Art/Animation/human/Core/Sprint.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
             "Address": "Walking",
             "AssetPath": "Assets/Art/Animation/human/Core/Walking.fbx",
             "AssetGUID": "",
@@ -141,7 +148,7 @@
             "UnityCRC": 0,
             "FileHash": "19f37db822f680cb77186410684d00e3",
             "FileCRC": "00000000",
-            "FileSize": 526548,
+            "FileSize": 527328,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -151,7 +158,7 @@
             "UnityCRC": 0,
             "FileHash": "1ac01479a14411105fb92e1838fbcac0",
             "FileCRC": "00000000",
-            "FileSize": 5172762,
+            "FileSize": 5459194,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []

@@ -129,18 +129,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3756364481993408009}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &28214853 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2776002147675285497, guid: fb7200e9b7e864a4b8726a6c96f0c431,
-    type: 3}
-  m_PrefabInstance: {fileID: 3756364481993408009}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28214852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80cc8fb6077f7f243a138b12ec36dd15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &28214855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,22 +160,6 @@ MonoBehaviour:
     m_ActionId: 7d18a739-deb3-432a-9db6-50dc51def3e2
     m_ActionName: PlayerMovement/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 28214853}
-        m_TargetAssemblyTypeName: CX.PlayerInputManager, Assembly-CSharp
-        m_MethodName: GetSpecialKeyStats
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 608397c5-00d8-40c5-b15e-f4e1769dd419
-    m_ActionName: PlayerMovement/PressSpecialKey[/Keyboard/shift]
-  - m_PersistentCalls:
       m_Calls: []
     m_ActionId: a378315b-44b1-42e9-97df-90a76b2df68a
     m_ActionName: PlayerCamera/Camera Controls[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
@@ -195,6 +167,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 55c26b22-73e2-45bc-9632-b8bfba00003a
     m_ActionName: PlayerActions/Dodge[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4aca5d9d-70d1-47fb-8b88-cab5a421b72a
+    m_ActionName: PlayerActions/Sprint[/Keyboard/leftShift]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerMovement
@@ -1017,6 +993,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1590823994851778820, guid: 0acbe46c570da764cbf63c828fa3fa76,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590823994851778820, guid: 0acbe46c570da764cbf63c828fa3fa76,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2229147949368293437, guid: 0acbe46c570da764cbf63c828fa3fa76,
         type: 3}
       propertyPath: m_Name
@@ -1027,6 +1013,41 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4843975270682147940, guid: 0acbe46c570da764cbf63c828fa3fa76,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843975270682147940, guid: 0acbe46c570da764cbf63c828fa3fa76,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843975270682147940, guid: 0acbe46c570da764cbf63c828fa3fa76,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5257349201790062904, guid: 0acbe46c570da764cbf63c828fa3fa76,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5257349201790062904, guid: 0acbe46c570da764cbf63c828fa3fa76,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5257349201790062904, guid: 0acbe46c570da764cbf63c828fa3fa76,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5257349201790062904, guid: 0acbe46c570da764cbf63c828fa3fa76,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6583130669330057054, guid: 0acbe46c570da764cbf63c828fa3fa76,
         type: 3}
       propertyPath: m_RootOrder
@@ -1035,17 +1056,17 @@ PrefabInstance:
     - target: {fileID: 6583130669330057054, guid: 0acbe46c570da764cbf63c828fa3fa76,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.4126987
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6583130669330057054, guid: 0acbe46c570da764cbf63c828fa3fa76,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2228012
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6583130669330057054, guid: 0acbe46c570da764cbf63c828fa3fa76,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.083729
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6583130669330057054, guid: 0acbe46c570da764cbf63c828fa3fa76,
         type: 3}

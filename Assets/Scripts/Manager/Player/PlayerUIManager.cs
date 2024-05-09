@@ -1,3 +1,4 @@
+using CX;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
@@ -9,6 +10,7 @@ public class PlayerUIManager : MonoBehaviour
 
     [SerializeField] bool startGameAsClient;
 
+    [HideInInspector] public PlayerUIHudManager PlayerUIHudManager;
     private void Awake()
     {
         if(instance == null)
@@ -19,6 +21,7 @@ public class PlayerUIManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        PlayerUIHudManager = GetComponentInChildren<PlayerUIHudManager>();
     }
     private void Start()
     {

@@ -12,7 +12,6 @@ namespace CX
 
         [Header("movement input")]
         [SerializeField] Vector2 movementInput;
-        bool isPressSpecialKey;
         public float verticalInput;
         public float horizontalInput;
         public float moveAmount;
@@ -24,6 +23,7 @@ namespace CX
 
         [Header("Player Action Input")]
         [SerializeField] bool dodgeInput;
+        [SerializeField] bool sprintInput;
 
         private void Awake()
         {
@@ -63,6 +63,10 @@ namespace CX
                 playerControls.PlayerMovement.Movement.performed += i => movementInput = i.ReadValue<Vector2>();
                 playerControls.PlayerCamera.CameraControls.performed += i => cameraInput = i.ReadValue<Vector2>();
                 playerControls.PlayerActions.Dodge.performed += i => dodgeInput = true;
+
+                //按住后
+                playerControls.PlayerActions.Sprint.performed += i => sprintInput = true;
+                playerControls.PlayerActions.Sprint.canceled += i => sprintInput = false;
             }
 
             playerControls.Enable();
@@ -72,6 +76,7 @@ namespace CX
             HandleMovementInput();
             HandleCameraMovementInput();
             HandleDodgeInput();
+            HnadleSprinting();
         }
         private void OnDestroy()
         {
@@ -103,10 +108,7 @@ namespace CX
 
             if(moveAmount <= 0.5f && moveAmount >0)
             {
-                if (isPressSpecialKey)
-                    moveAmount = 1;
-                else
-                    moveAmount = 0.5f;
+                 moveAmount = 0.5f;
             }
             else if(moveAmount >0.5 && moveAmount<=1)
             {
@@ -114,7 +116,7 @@ namespace CX
             }
             if(player ==null)            
                 return;            
-            player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount);
+            player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount , player.playerNetworkManager.isSprinting.Value);
         }
         //拿到相机移动值
         private void HandleCameraMovementInput()
@@ -132,19 +134,17 @@ namespace CX
                 player.playerLocomotionManager.AttenmpToPerformDodge();
             }
         }
-
-        public void GetSpecialKeyStats(InputAction.CallbackContext input)
+        private void HnadleSprinting()
         {
-            if(input.started)
+            if(sprintInput)
             {
-                isPressSpecialKey = true;
+                player.playerLocomotionManager.HandleSprinting();
             }
-            else if(input.canceled)
+            else
             {
-                isPressSpecialKey =false;
+                player.playerNetworkManager.isSprinting.Value = false;
             }
         }
-
     }
 }
 

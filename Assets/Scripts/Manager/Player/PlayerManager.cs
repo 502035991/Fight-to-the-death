@@ -8,11 +8,15 @@ namespace CX
     {
         [HideInInspector] public PlayerLocomotionManager playerLocomotionManager;
         [HideInInspector] public PlayerAnimatorManager playerAnimatorManager;
+        [HideInInspector] public PlayerNetworkManager playerNetworkManager;
+        [HideInInspector] public PlayerStatsManager playerStatsManager;
         protected override void Awake()
         {
             base.Awake();
             playerLocomotionManager = GetComponent<PlayerLocomotionManager>();
             playerAnimatorManager = GetComponent<PlayerAnimatorManager>();
+            playerNetworkManager = GetComponent<PlayerNetworkManager>();
+            playerStatsManager = GetComponent<PlayerStatsManager>();
         }
         protected override void Update()
         {
@@ -22,6 +26,7 @@ namespace CX
                 return;
             }
             playerLocomotionManager.HandleAllMovement();
+            playerStatsManager.RegenerateStamina();
         }
         protected override void LateUpdate()
         {
@@ -39,6 +44,14 @@ namespace CX
             {
                 PlayerCamera.instance.player = this;
                 PlayerInputManager.instance.player = this;
+
+                playerNetworkManager.currentStamina.OnValueChanged += PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue;
+                playerNetworkManager.currentStamina.OnValueChanged += playerStatsManager.ResetStaminaRegenerationTimer;
+
+                playerNetworkManager.maxStamina.Value = playerStatsManager.CalculateStaminaBasedOnEndurancelevel(playerNetworkManager.endurance.Value);
+                playerNetworkManager.currentStamina.Value = playerStatsManager.CalculateStaminaBasedOnEndurancelevel(playerNetworkManager.endurance.Value);
+                PlayerUIManager.instance.PlayerUIHudManager.SetMaxStaminaValue(playerNetworkManager.maxStamina.Value);
+
             }
         }
     }
