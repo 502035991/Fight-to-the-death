@@ -24,6 +24,7 @@ namespace CX
         [Header("Player Action Input")]
         [SerializeField] bool dodgeInput;
         [SerializeField] bool sprintInput;
+        [SerializeField] bool jumpInput;
 
         private void Awake()
         {
@@ -63,6 +64,7 @@ namespace CX
                 playerControls.PlayerMovement.Movement.performed += i => movementInput = i.ReadValue<Vector2>();
                 playerControls.PlayerCamera.CameraControls.performed += i => cameraInput = i.ReadValue<Vector2>();
                 playerControls.PlayerActions.Dodge.performed += i => dodgeInput = true;
+                playerControls.PlayerActions.Jump.performed += i => jumpInput = true;
 
                 //°´×¡ºó
                 playerControls.PlayerActions.Sprint.performed += i => sprintInput = true;
@@ -76,7 +78,8 @@ namespace CX
             HandleMovementInput();
             HandleCameraMovementInput();
             HandleDodgeInput();
-            HnadleSprinting();
+            HnadleSprintInput();
+            HandleJumpInput();
         }
         private void OnDestroy()
         {
@@ -131,10 +134,10 @@ namespace CX
             if (dodgeInput)
             {
                 dodgeInput = false;
-                player.playerLocomotionManager.AttenmpToPerformDodge();
+                player.playerLocomotionManager.AttemptToPerformDodge();
             }
         }
-        private void HnadleSprinting()
+        private void HnadleSprintInput()
         {
             if(sprintInput)
             {
@@ -143,6 +146,14 @@ namespace CX
             else
             {
                 player.playerNetworkManager.isSprinting.Value = false;
+            }
+        }
+        private void HandleJumpInput()
+        {
+            if(jumpInput)
+            {
+                jumpInput =false;
+                player.playerLocomotionManager.AttemptToPerformJump();
             }
         }
     }

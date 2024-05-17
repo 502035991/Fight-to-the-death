@@ -14,6 +14,8 @@ namespace CX
 
         [Header("±‰¡ø")]
         public bool isPerformingAction = false;
+        public bool isJumping = false;
+        public bool isGrounded = false;
         public bool applyRootMotion = false;
         public bool canRotate = true;
         public bool canMove = true;
@@ -29,6 +31,7 @@ namespace CX
 
         protected virtual void Update()
         {
+            anim.SetBool("isGrounded", isGrounded);
             if (IsOwner)                
             {
                 characterNetworkManager.networkPosition.Value = transform.position;

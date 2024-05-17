@@ -30,69 +30,6 @@
             "BundleID": 1
         },
         {
-            "Address": "jump",
-            "AssetPath": "Assets/Art/Animation/human/Core/jump.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "left strafe walking",
-            "AssetPath": "Assets/Art/Animation/human/Core/left strafe walking.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "left strafe",
-            "AssetPath": "Assets/Art/Animation/human/Core/left strafe.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "left turn 90",
-            "AssetPath": "Assets/Art/Animation/human/Core/left turn 90.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "left turn",
-            "AssetPath": "Assets/Art/Animation/human/Core/left turn.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "right strafe walking",
-            "AssetPath": "Assets/Art/Animation/human/Core/right strafe walking.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "right strafe",
-            "AssetPath": "Assets/Art/Animation/human/Core/right strafe.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "right turn 90",
-            "AssetPath": "Assets/Art/Animation/human/Core/right turn 90.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "right turn",
-            "AssetPath": "Assets/Art/Animation/human/Core/right turn.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
             "Address": "Rool",
             "AssetPath": "Assets/Art/Animation/human/Core/Rool.fbx",
             "AssetGUID": "",
@@ -100,46 +37,137 @@
             "BundleID": 1
         },
         {
-            "Address": "running",
-            "AssetPath": "Assets/Art/Animation/human/Core/running.fbx",
+            "Address": "Main_Jump_Fall",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Fall.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1
+            "BundleID": 2
+        },
+        {
+            "Address": "Main_Jump_Idle",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Idle.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Main_Jump_Land",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Land.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Main_Jump_Start",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Start.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Main_Jump_Up",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Up.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "left strafe walking",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/left strafe walking.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "left strafe",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/left strafe.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "left turn 90",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/left turn 90.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "left turn",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/left turn.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "right strafe walking",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/right strafe walking.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "right strafe",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/right strafe.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "right turn 90",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/right turn 90.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "right turn",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/right turn.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "running",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/running.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
         },
         {
             "Address": "Sprint",
-            "AssetPath": "Assets/Art/Animation/human/Core/Sprint.fbx",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/Sprint.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1
+            "BundleID": 3
         },
         {
             "Address": "Walking",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walking.fbx",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/Walking.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1
+            "BundleID": 3
         },
         {
             "Address": "Walking_Back",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walking_Back.fbx",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/Walking_Back.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1
+            "BundleID": 3
         },
         {
             "Address": "S_Waving_Torch_Mono_1",
             "AssetPath": "Assets/Art/Audio/SoundFX/Actions/S_Waving_Torch_Mono_1.wav",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2
+            "BundleID": 4
         },
         {
             "Address": "ParrelSyncProjectSettings",
             "AssetPath": "Assets/Plugins/ParrelSync/ScriptableObjects/ParrelSyncProjectSettings.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3
+            "BundleID": 5
         }
     ],
     "BundleList": [
@@ -148,7 +176,7 @@
             "UnityCRC": 0,
             "FileHash": "19f37db822f680cb77186410684d00e3",
             "FileCRC": "00000000",
-            "FileSize": 527328,
+            "FileSize": 613804,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -158,7 +186,27 @@
             "UnityCRC": 0,
             "FileHash": "1ac01479a14411105fb92e1838fbcac0",
             "FileCRC": "00000000",
-            "FileSize": 5459194,
+            "FileSize": 1247184,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_art_animation_human_core_jumping.bundle",
+            "UnityCRC": 0,
+            "FileHash": "3482da65edcba297bc76b36e32df9e36",
+            "FileCRC": "00000000",
+            "FileSize": 1326592,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_art_animation_human_core_walk&&run.bundle",
+            "UnityCRC": 0,
+            "FileHash": "2a35c928101537abcdc6f55c9e2be082",
+            "FileCRC": "00000000",
+            "FileSize": 3803817,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
