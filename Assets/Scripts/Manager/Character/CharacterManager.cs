@@ -7,10 +7,15 @@ namespace CX
 {
     public class CharacterManager : NetworkBehaviour
     {
+        [Header("Status")]
+        public NetworkVariable<bool> isDead = new NetworkVariable<bool>(false,NetworkVariableReadPermission.Everyone,NetworkVariableWritePermission.Owner);
+
         [HideInInspector] public CharacterController characterController;
         [HideInInspector] public Animator anim;
 
         [HideInInspector] public CharacterNetworkManager characterNetworkManager;
+        [HideInInspector] public CharacterEffectManager characterEffectManager;
+        [HideInInspector] public  CharacterAnimatorManager characterAnimatorManager;
 
         [Header("±‰¡ø")]
         public bool isPerformingAction = false;
@@ -26,7 +31,10 @@ namespace CX
 
             characterController = GetComponent<CharacterController>();
             anim = GetComponent<Animator>();
+
             characterNetworkManager = GetComponent<CharacterNetworkManager>();
+            characterEffectManager = GetComponent<CharacterEffectManager>();
+            characterAnimatorManager = GetComponent<CharacterAnimatorManager>();
         }
 
         protected virtual void Update()
@@ -53,6 +61,23 @@ namespace CX
         }
         protected virtual void LateUpdate()
         {
+
+        }
+        public virtual IEnumerator ProcessDeathEvent(bool manuallySelectDeathAnimation =false)
+        {
+            if(IsOwner)
+            {
+                characterNetworkManager.currentHealth.Value = 0;
+                isDead.Value = false;
+
+                if(!manuallySelectDeathAnimation)
+                {
+                    characterAnimatorManager.PlayerTargetActionAnimation("Dead" , true);
+                }
+            }
+
+            yield return new WaitForSeconds(5);
+
 
         }
     }

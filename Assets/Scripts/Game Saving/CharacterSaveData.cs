@@ -13,8 +13,16 @@ namespace CX
         public float secondsPlayed;
         [Header("位置坐标")]
         public float xPosition = 0;
-        public float yPosition = 1f;
+        public float yPosition = 0;
         public float zPosition = 0;
+
+        [Header("当前状态")]
+        public int currentHealth;     
+        public float currentStamina;
+
+        [Header("状态")]
+        public int vitality;//血量
+        public int endurance;//耐力
     }
 
 }

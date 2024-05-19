@@ -97,7 +97,7 @@ public class WorldSaveGameManager : MonoBehaviour
         {
             currentCharacterSlotBeingUsed = CharacterSlot.CharacterSlot_01;
             currentCharacterData = new CharacterSaveData();
-            StartCoroutine(LoadWorldScene());
+            NewGame();
             return;
         }
     }
@@ -110,6 +110,11 @@ public class WorldSaveGameManager : MonoBehaviour
         saveFileDataWriter.saveFileName = saveFileName;
         currentCharacterData = saveFileDataWriter.LoadSaveFile();
 
+        StartCoroutine(LoadWorldScene());
+    }
+    private void NewGame()
+    {
+        SaveGame();
         StartCoroutine(LoadWorldScene());
     }
     public void SaveGame()

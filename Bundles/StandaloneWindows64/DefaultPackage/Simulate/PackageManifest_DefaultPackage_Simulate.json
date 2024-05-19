@@ -23,6 +23,13 @@
             "BundleID": 0
         },
         {
+            "Address": "Dead",
+            "AssetPath": "Assets/Art/Animation/human/Core/Dead.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
             "Address": "Idle",
             "AssetPath": "Assets/Art/Animation/human/Core/Idle.fbx",
             "AssetGUID": "",
@@ -176,7 +183,7 @@
             "UnityCRC": 0,
             "FileHash": "19f37db822f680cb77186410684d00e3",
             "FileCRC": "00000000",
-            "FileSize": 613804,
+            "FileSize": 627334,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -186,7 +193,7 @@
             "UnityCRC": 0,
             "FileHash": "1ac01479a14411105fb92e1838fbcac0",
             "FileCRC": "00000000",
-            "FileSize": 1247184,
+            "FileSize": 1775888,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
