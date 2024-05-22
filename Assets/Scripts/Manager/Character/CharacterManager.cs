@@ -36,6 +36,10 @@ namespace CX
             characterEffectManager = GetComponent<CharacterEffectManager>();
             characterAnimatorManager = GetComponent<CharacterAnimatorManager>();
         }
+        protected virtual void Start()
+        {
+            IgnoreMyOwnColliders();
+        }
 
         protected virtual void Update()
         {
@@ -77,8 +81,27 @@ namespace CX
             }
 
             yield return new WaitForSeconds(5);
+        }
+        protected virtual void IgnoreMyOwnColliders()
+        {
+            Collider characterControllerCollider = GetComponent<Collider>();
+            Collider[] damageableCharacterColliders = GetComponentsInChildren<Collider>();
+            List<Collider> ignoreColliders = new List<Collider>();
 
+            foreach(var collider in  damageableCharacterColliders)
+            {
+                ignoreColliders.Add(collider);
+            }
 
+            ignoreColliders.Add(characterControllerCollider);
+
+            foreach(var collider in ignoreColliders)
+            {
+                foreach(var otherCollider in ignoreColliders)
+                {
+                    Physics.IgnoreCollision(collider, otherCollider, true);
+                }
+            }
         }
     }
 }

@@ -23,7 +23,8 @@ namespace CX
         protected List<CharacterManager> charactersDamaged = new List<CharacterManager>();
         private void OnTriggerEnter(Collider other)
         {
-            CharacterManager damageTarget = other.GetComponent<CharacterManager>();
+            CharacterManager damageTarget = other.GetComponentInParent<CharacterManager>();
+
             if(damageTarget != null)
             {
                 contactPoint = other.gameObject.GetComponent<Collider>().ClosestPointOnBounds(transform.position);
@@ -33,8 +34,6 @@ namespace CX
         protected virtual void DamageTarget(CharacterManager damageTarget)
         {
             if(charactersDamaged.Contains(damageTarget))
-                return;
-            if (damageTarget.IsOwner)
                 return;
 
             charactersDamaged.Add(damageTarget);

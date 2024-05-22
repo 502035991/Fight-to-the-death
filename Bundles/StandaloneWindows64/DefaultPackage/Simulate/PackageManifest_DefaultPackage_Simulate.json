@@ -23,123 +23,130 @@
             "BundleID": 0
         },
         {
+            "Address": "Upperbody",
+            "AssetPath": "Assets/Art/Animation/human/_Masks/Upperbody.mask",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
             "Address": "Dead",
             "AssetPath": "Assets/Art/Animation/human/Core/Dead.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1
+            "BundleID": 2
         },
         {
             "Address": "Idle",
             "AssetPath": "Assets/Art/Animation/human/Core/Idle.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1
+            "BundleID": 2
         },
         {
             "Address": "Rool",
             "AssetPath": "Assets/Art/Animation/human/Core/Rool.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "Swap_Right_Weapon",
-            "AssetPath": "Assets/Art/Animation/human/Core/Swap_Right_Weapon.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
+            "BundleID": 2
         },
         {
             "Address": "Main_Jump_Fall",
             "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Fall.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2
+            "BundleID": 3
         },
         {
             "Address": "Main_Jump_Idle",
             "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Idle.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2
+            "BundleID": 3
         },
         {
             "Address": "Main_Jump_Land",
             "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Land.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2
+            "BundleID": 3
         },
         {
             "Address": "Main_Jump_Start",
             "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Start.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2
+            "BundleID": 3
         },
         {
             "Address": "Main_Jump_Up",
             "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Up.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2
+            "BundleID": 3
         },
         {
             "Address": "Idle_Base",
             "AssetPath": "Assets/Art/Animation/human/Core/Walk&Running/Idle_Base.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3
+            "BundleID": 4
         },
         {
             "Address": "Idle_Long_01",
             "AssetPath": "Assets/Art/Animation/human/Core/Walk&Running/Idle_Long_01.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3
+            "BundleID": 4
         },
         {
             "Address": "Idle_Long_02",
             "AssetPath": "Assets/Art/Animation/human/Core/Walk&Running/Idle_Long_02.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3
+            "BundleID": 4
         },
         {
             "Address": "Running",
             "AssetPath": "Assets/Art/Animation/human/Core/Walk&Running/Running.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3
+            "BundleID": 4
         },
         {
             "Address": "Walking",
             "AssetPath": "Assets/Art/Animation/human/Core/Walk&Running/Walking.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3
+            "BundleID": 4
+        },
+        {
+            "Address": "Swap_Right_Weapon",
+            "AssetPath": "Assets/Art/Animation/human/Damage/Swap_Right_Weapon.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
         },
         {
             "Address": "S_Waving_Torch_Mono_1",
             "AssetPath": "Assets/Art/Audio/SoundFX/Actions/S_Waving_Torch_Mono_1.wav",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 4
+            "BundleID": 6
         },
         {
             "Address": "SWORD 4",
             "AssetPath": "Assets/Art/UI Sprites/Icon/Items/SWORD 4.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 5
+            "BundleID": 7
         },
         {
             "Address": "ParrelSyncProjectSettings",
             "AssetPath": "Assets/Plugins/ParrelSync/ScriptableObjects/ParrelSyncProjectSettings.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 6
+            "BundleID": 8
         }
     ],
     "BundleList": [
@@ -154,11 +161,21 @@
             "DependIDs": []
         },
         {
+            "BundleName": "assets_art_animation_human__masks.bundle",
+            "UnityCRC": 0,
+            "FileHash": "b4d287f8962600bfefb63535f7bf9de1",
+            "FileCRC": "00000000",
+            "FileSize": 353,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
             "BundleName": "assets_art_animation_human_core.bundle",
             "UnityCRC": 0,
             "FileHash": "1ac01479a14411105fb92e1838fbcac0",
             "FileCRC": "00000000",
-            "FileSize": 2071536,
+            "FileSize": 1775888,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -179,6 +196,16 @@
             "FileHash": "5990c608f1b81a079bc446ff1d2c7e01",
             "FileCRC": "00000000",
             "FileSize": 2253168,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_art_animation_human_damage.bundle",
+            "UnityCRC": 0,
+            "FileHash": "592657928c6b05215abab2f783149f13",
+            "FileCRC": "00000000",
+            "FileSize": 295648,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
