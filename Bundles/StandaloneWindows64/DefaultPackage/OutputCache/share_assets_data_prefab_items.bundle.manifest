@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 1221892094
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9dc61465017b6dbd0fb086b64e2d4896
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f5e8e0bcf23087e062306c0dd673962
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c41ebf82662e4654ea5c231551118479, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2aa515b8bcf10404698b0c96e969f0bd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Prefab/Items/Weapon_Straight_Sword.prefab
+Dependencies:
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_free_swords_materials.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_free_swords_meshes.bundle

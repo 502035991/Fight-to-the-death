@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3171665518
+CRC: 3485064293
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 619d9dc513d05aa0ce56aa6863990be3
+    Hash: 38175b980098b816e80ba6a9898426ee
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2612ac43db082a73502ee80f2eceb73f
@@ -14,4 +14,5 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputSystemUIInputModule@64.png
+- Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputAction.png
 Dependencies: []

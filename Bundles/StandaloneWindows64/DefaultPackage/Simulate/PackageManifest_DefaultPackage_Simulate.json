@@ -44,6 +44,13 @@
             "BundleID": 1
         },
         {
+            "Address": "Swap_Right_Weapon",
+            "AssetPath": "Assets/Art/Animation/human/Core/Swap_Right_Weapon.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
             "Address": "Main_Jump_Fall",
             "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Fall.fbx",
             "AssetGUID": "",
@@ -79,85 +86,36 @@
             "BundleID": 2
         },
         {
-            "Address": "left strafe walking",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/left strafe walking.fbx",
+            "Address": "Idle_Base",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&Running/Idle_Base.fbx",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 3
         },
         {
-            "Address": "left strafe",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/left strafe.fbx",
+            "Address": "Idle_Long_01",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&Running/Idle_Long_01.fbx",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 3
         },
         {
-            "Address": "left turn 90",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/left turn 90.fbx",
+            "Address": "Idle_Long_02",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&Running/Idle_Long_02.fbx",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 3
         },
         {
-            "Address": "left turn",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/left turn.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 3
-        },
-        {
-            "Address": "right strafe walking",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/right strafe walking.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 3
-        },
-        {
-            "Address": "right strafe",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/right strafe.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 3
-        },
-        {
-            "Address": "right turn 90",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/right turn 90.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 3
-        },
-        {
-            "Address": "right turn",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/right turn.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 3
-        },
-        {
-            "Address": "running",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/running.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 3
-        },
-        {
-            "Address": "Sprint",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/Sprint.fbx",
+            "Address": "Running",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&Running/Running.fbx",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 3
         },
         {
             "Address": "Walking",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/Walking.fbx",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 3
-        },
-        {
-            "Address": "Walking_Back",
-            "AssetPath": "Assets/Art/Animation/human/Core/Walk&&Run/Walking_Back.fbx",
+            "AssetPath": "Assets/Art/Animation/human/Core/Walk&Running/Walking.fbx",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 3
@@ -170,11 +128,18 @@
             "BundleID": 4
         },
         {
+            "Address": "SWORD 4",
+            "AssetPath": "Assets/Art/UI Sprites/Icon/Items/SWORD 4.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
             "Address": "ParrelSyncProjectSettings",
             "AssetPath": "Assets/Plugins/ParrelSync/ScriptableObjects/ParrelSyncProjectSettings.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 5
+            "BundleID": 6
         }
     ],
     "BundleList": [
@@ -183,7 +148,7 @@
             "UnityCRC": 0,
             "FileHash": "19f37db822f680cb77186410684d00e3",
             "FileCRC": "00000000",
-            "FileSize": 627334,
+            "FileSize": 630392,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -193,7 +158,7 @@
             "UnityCRC": 0,
             "FileHash": "1ac01479a14411105fb92e1838fbcac0",
             "FileCRC": "00000000",
-            "FileSize": 1775888,
+            "FileSize": 2071536,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -209,11 +174,11 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_art_animation_human_core_walk&&run.bundle",
+            "BundleName": "assets_art_animation_human_core_walk&running.bundle",
             "UnityCRC": 0,
-            "FileHash": "2a35c928101537abcdc6f55c9e2be082",
+            "FileHash": "5990c608f1b81a079bc446ff1d2c7e01",
             "FileCRC": "00000000",
-            "FileSize": 3803817,
+            "FileSize": 2253168,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -224,6 +189,16 @@
             "FileHash": "d0a2ac54816e98f6dff796c127e77847",
             "FileCRC": "00000000",
             "FileSize": 132344,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_art_ui sprites_icon_items.bundle",
+            "UnityCRC": 0,
+            "FileHash": "316b3c55214d9921d4fd83d7cc165868",
+            "FileCRC": "00000000",
+            "FileSize": 1731,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []

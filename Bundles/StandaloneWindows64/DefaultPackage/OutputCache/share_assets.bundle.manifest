@@ -1,23 +1,19 @@
 ManifestFileVersion: 0
-CRC: 3217710419
+CRC: 2216159814
 Hashes:
   AssetFileHash:
     serializedVersion: 2
     Hash: 96e3a95dba5edbc5c713b06e42799d07
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6252cd94a6f7b5b10976e89fc1182d6d
+    Hash: 88444f47fb328559f164ee1e393b5f65
 HashAppended: 0
 ClassTypes:
-- Class: 1
-  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: e651dbb3fbac04af2b8f5abf007ddc23, type: 3}
 - Class: 115
   Script: {instanceID: 0}
-SerializeReferenceClassIdentifiers:
-- AssemblyName: Unity.Netcode.Runtime
-  ClassName: Unity.Netcode.NetworkPrefab
+SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/DefaultNetworkPrefabs.asset
 Dependencies: []

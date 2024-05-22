@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3319383577
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea31718b2b7b0c002b4c4c7a863677cc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 540c277ba22ee903a08e38a9e54a13bc
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62b2e5cfab01c50459a3edf7df8c16f2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 566d84820214c264e898f9bf63431b27, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Anitation Controller/Human.controller
+Dependencies:
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation_human_core.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation_human_core_jumping.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation_human_new
+  core sword&shield.bundle

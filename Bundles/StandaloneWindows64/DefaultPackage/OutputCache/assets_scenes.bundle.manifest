@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 107110920
+CRC: 3478520729
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6e468f713c0d48b047febd1861e1bfea
+    Hash: 8dd31eb96af5cf98ae1dc3ebcd0b00f6
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 967dd650630147fc1e328129fdf9b715
+    Hash: 79bb5d3e2db96d28130e45273effc814
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -31,11 +31,19 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
 - Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
   Script: {instanceID: 0}
 - Class: 89
   Script: {instanceID: 0}
 - Class: 90
+  Script: {instanceID: 0}
+- Class: 91
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
@@ -48,23 +56,43 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b44583e07400af844b295c5e6f323bb7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 90d9e72ef0c953a48b1593b418a2cd9a, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: f6bd0c76a480f1c43ab3bc9044290df9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c41ebf82662e4654ea5c231551118479, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 320ba2f9c411586449344a9205691327, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: f25f797741f1c304bbc467771f136afe, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: b8a161249f62d4c42bbbdd1cce8d8acb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bc6a13c243cd2d448a0999fc1e7b90d7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3145e3ebe05d3c54d96555389dc6da1c, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 593a2fe42fa9d37498c96f9a383b6521, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 220fa08b0e62f1645979f15f14aaaa0f, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 80cc8fb6077f7f243a138b12ec36dd15, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 6960e84d07fb87f47956e7a81d71c4e6, type: 3}
 - Class: 114
@@ -74,23 +102,63 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: e7286f698d6416d48ba9e920477e8d35, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: ac3dc91861f037646bdb3b0f9431179d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8881ec7ee7d27e942b9ee70daa9d64de, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 39fa3d8997a24136984ca6e2c99902bc, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a1ef4e8371ae954b8716d15b90629af, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b7699458087acdf4db61d518e370d687, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62b2e5cfab01c50459a3edf7df8c16f2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e651dbb3fbac04af2b8f5abf007ddc23, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: c03a19f52054ae84aa60ec75ed0d307c, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: e1ca011039510f04a9aa5bd6da5363c6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1cee641e53acc164d9ca78061cea7a50, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4729b445865fd3844b026ebfa893b7a4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a4af4a269765b6e42aa1a3fc869f261c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 566d84820214c264e898f9bf63431b27, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f71bc1db36f53454bacdadeb6c533579, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 84617a6391c3fb54ebab63057d3b29b0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f107ab328f6e2c2478a5e198f244da83, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae24ae172dc98cb4eadfd018e8b03fa5, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 2aa515b8bcf10404698b0c96e969f0bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 22700d30598216b4cb58d038f199782c, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: f24d0eaa88a20c8448b165ed14c948d2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 539033300d8db4e459d68fd54aeebf81, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -111,16 +179,20 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 224
   Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scenes/GameScene.unity
 - Assets/Scenes/MainScene.unity
 Dependencies:
-- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_prefab.bundle
-- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_prefab_worldmanager.bundle
 - C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_data_effects.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_data_prefab.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_data_prefab_worldmanager.bundle
 - C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_others_material.bundle
 - C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_others_textmesh
   pro_resources_fonts & materials.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_scripts_inputsystem.bundle
 - C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle
 - C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle

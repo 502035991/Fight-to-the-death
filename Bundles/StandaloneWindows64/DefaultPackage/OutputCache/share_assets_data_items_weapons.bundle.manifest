@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3085252123
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b31536e5ddda48b12eb8a2e95a59e97e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c9da93fb1e9057728255190440554f78
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4729b445865fd3844b026ebfa893b7a4, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Items/Weapons/Straight Sword.asset
+Dependencies:
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_ui
+  sprites_icon_items.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_free_swords_materials.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_free_swords_meshes.bundle

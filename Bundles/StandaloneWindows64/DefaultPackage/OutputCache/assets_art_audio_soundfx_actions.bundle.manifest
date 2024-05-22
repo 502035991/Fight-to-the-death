@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4080642227
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 589ce6945dcac7e6a8caf501f119b4dd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Audio/SoundFX/Actions/S_Waving_Torch_Mono_1.wav
+Dependencies: []

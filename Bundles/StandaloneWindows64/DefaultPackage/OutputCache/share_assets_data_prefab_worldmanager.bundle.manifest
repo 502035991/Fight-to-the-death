@@ -1,0 +1,94 @@
+ManifestFileVersion: 0
+CRC: 450830168
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 093b407c4c7061b9a4b265e893bb3c0b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: eef2e13c2d7d96debcd455a92febfffa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 320ba2f9c411586449344a9205691327, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bc6a13c243cd2d448a0999fc1e7b90d7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 220fa08b0e62f1645979f15f14aaaa0f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 80cc8fb6077f7f243a138b12ec36dd15, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e7286f698d6416d48ba9e920477e8d35, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8881ec7ee7d27e942b9ee70daa9d64de, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b7699458087acdf4db61d518e370d687, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1cee641e53acc164d9ca78061cea7a50, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a4af4a269765b6e42aa1a3fc869f261c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: CX.CharacterSaveData
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Slider/SliderEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/Data/Prefab/WorldManager/World Sound FX Manager.prefab
+- Assets/Data/Prefab/WorldManager/Player UI Manager.prefab
+- Assets/Data/Prefab/WorldManager/Netcode Manager.prefab
+- Assets/Data/Prefab/WorldManager/Player Input Manager.prefab
+- Assets/Data/Prefab/WorldManager/World Character Effect Manager.prefab
+- Assets/Data/Prefab/WorldManager/World Save Game Manager.prefab
+Dependencies:
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_audio_soundfx_actions.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_data_effects.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_others_textmesh
+  pro_resources_fonts & materials.bundle

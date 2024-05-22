@@ -1,0 +1,532 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2024-05-21-983",
+    "AssetList": [
+        {
+            "Address": "GameScene",
+            "AssetPath": "Assets/Scenes/GameScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "MainScene",
+            "AssetPath": "Assets/Scenes/MainScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Dead",
+            "AssetPath": "Assets/Art/Animation/human/Core/Dead.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Idle",
+            "AssetPath": "Assets/Art/Animation/human/Core/Idle.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Rool",
+            "AssetPath": "Assets/Art/Animation/human/Core/Rool.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Main_Jump_Fall",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Fall.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Main_Jump_Idle",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Idle.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Main_Jump_Land",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Land.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Main_Jump_Start",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Start.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Main_Jump_Up",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Up.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Idle_Base",
+            "AssetPath": "Assets/Art/Animation/human/New Core Sword&Shield/Idle_Base.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "Idle_Long_01",
+            "AssetPath": "Assets/Art/Animation/human/New Core Sword&Shield/Idle_Long_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "Idle_Long_02",
+            "AssetPath": "Assets/Art/Animation/human/New Core Sword&Shield/Idle_Long_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "NewWalking",
+            "AssetPath": "Assets/Art/Animation/human/New Core Sword&Shield/NewWalking.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "S_Waving_Torch_Mono_1",
+            "AssetPath": "Assets/Art/Audio/SoundFX/Actions/S_Waving_Torch_Mono_1.wav",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "SWORD 4",
+            "AssetPath": "Assets/Art/UI Sprites/Icon/Items/SWORD 4.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "ParrelSyncProjectSettings",
+            "AssetPath": "Assets/Plugins/ParrelSync/ScriptableObjects/ParrelSyncProjectSettings.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_scenes.bundle",
+            "UnityCRC": 3478520729,
+            "FileHash": "a92ac88920c54635f9ac6b00fab73958",
+            "FileCRC": "e5e6b906",
+            "FileSize": 260300,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                22,
+                16,
+                13,
+                27,
+                15,
+                21,
+                20,
+                17,
+                10,
+                23,
+                11,
+                14,
+                7,
+                28,
+                18,
+                25,
+                26,
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_human_core.bundle",
+            "UnityCRC": 3640951408,
+            "FileHash": "945eb83747115b7f7c0c8d59d8fdd560",
+            "FileCRC": "fb5c07c5",
+            "FileSize": 287414,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                16,
+                13,
+                27,
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_human_core_jumping.bundle",
+            "UnityCRC": 3667146670,
+            "FileHash": "b15245c5e5d192e96fc031479038d609",
+            "FileCRC": "1cfc4f1e",
+            "FileSize": 71571,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                16,
+                13,
+                27,
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_human_new core sword&shield.bundle",
+            "UnityCRC": 433767957,
+            "FileHash": "289bd0e5780e772383eafc8b2f043ab3",
+            "FileCRC": "f3e39382",
+            "FileSize": 194395,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                16,
+                13,
+                27,
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "assets_art_audio_soundfx_actions.bundle",
+            "UnityCRC": 4080642227,
+            "FileHash": "af4c81721d2906e045d5fc144de7c730",
+            "FileCRC": "7d2fb5c8",
+            "FileSize": 35985,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_art_ui sprites_icon_items.bundle",
+            "UnityCRC": 719114428,
+            "FileHash": "82e1eb67ad3e73f4a6656ca68aec9af9",
+            "FileCRC": "7c4acb53",
+            "FileSize": 5046,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_plugins_parrelsync_scriptableobjects.bundle",
+            "UnityCRC": 591488822,
+            "FileHash": "817578bce8bd029246f5f7ab156bd98e",
+            "FileCRC": "91f8c058",
+            "FileSize": 1069,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_others_material.bundle",
+            "UnityCRC": 1069845193,
+            "FileHash": "635d6f57df40b7864df663bb8739d42a",
+            "FileCRC": "8890bf33",
+            "FileSize": 2942,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                9
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "UnityCRC": 1122423631,
+            "FileHash": "c1b7e2f819cc052f2c2eb5c242af02be",
+            "FileCRC": "f455db2e",
+            "FileSize": 3022,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                9
+            ]
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "UnityCRC": 1350526723,
+            "FileHash": "89e56b64aa9f4ae38670375cf42f60c4",
+            "FileCRC": "2eba5db5",
+            "FileSize": 46302,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_data_effects.bundle",
+            "UnityCRC": 1580868556,
+            "FileHash": "5d45fe3560b406254507a9e352c20654",
+            "FileCRC": "d88dc497",
+            "FileSize": 2410,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_data_prefab.bundle",
+            "UnityCRC": 3545469212,
+            "FileHash": "6a44d657fde66b1d252591a6e75c8ef9",
+            "FileCRC": "e31603e4",
+            "FileSize": 33807,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                3,
+                5,
+                16,
+                13,
+                27,
+                15,
+                21,
+                20,
+                17,
+                23,
+                28,
+                18,
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle",
+            "UnityCRC": 4220858120,
+            "FileHash": "8e35a1422657d539c3ebf0a70181bb1a",
+            "FileCRC": "1df4357c",
+            "FileSize": 5557,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+            "UnityCRC": 951849080,
+            "FileHash": "ab77023fd18e81cef0385867642ad80b",
+            "FileCRC": "dddcb5d5",
+            "FileSize": 541558,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                16,
+                27,
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_assets_data_prefab_worldmanager.bundle",
+            "UnityCRC": 450830168,
+            "FileHash": "e438968077b1e6225fb2fbec8bd4d223",
+            "FileCRC": "89d7eb52",
+            "FileSize": 13316,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                4,
+                10,
+                28,
+                18,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_free_swords_materials.bundle",
+            "UnityCRC": 876030778,
+            "FileHash": "c3e5908014974046b9e294c2c964af43",
+            "FileCRC": "c4260f8d",
+            "FileSize": 3001,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                20,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+            "UnityCRC": 1264546110,
+            "FileHash": "316bfa90bef401345d3c9fa093e489aa",
+            "FileCRC": "bec0fa37",
+            "FileSize": 3011,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                27,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_assets_data_anitation controller.bundle",
+            "UnityCRC": 3319383577,
+            "FileHash": "6a4cdff52183616db4ad4d8795c4173d",
+            "FileCRC": "e2cd97bf",
+            "FileSize": 6720,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                3,
+                16,
+                13,
+                27,
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_assets_others_textmesh pro_resources_fonts & materials.bundle",
+            "UnityCRC": 1068895217,
+            "FileHash": "b9417e80fd5d48c38fe47bd4c9c4d33d",
+            "FileCRC": "3d7e79ef",
+            "FileSize": 384786,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                28,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_inputsystem_inputsystem_editor_icons.bundle",
+            "UnityCRC": 3485064293,
+            "FileHash": "367b9d31ced7894d9f33512a927dffaa",
+            "FileCRC": "194ebbb0",
+            "FileSize": 34394,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_3rdasste_free_swords_textures.bundle",
+            "UnityCRC": 2991917778,
+            "FileHash": "1c0b230129f6fd645974d4dd5423a2ea",
+            "FileCRC": "7c7b27a8",
+            "FileSize": 9910,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_3rdasste_free_swords_meshes.bundle",
+            "UnityCRC": 1212286335,
+            "FileHash": "9cf6d2ac80376e48f5d58d4adae11eaa",
+            "FileCRC": "56563613",
+            "FileSize": 43669,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_assets.bundle",
+            "UnityCRC": 2216159814,
+            "FileHash": "84183a51a305ddd7c85918c5d2f65852",
+            "FileCRC": "778b0894",
+            "FileSize": 1996,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_data_items_weapons.bundle",
+            "UnityCRC": 3085252123,
+            "FileHash": "4986adaec3fb47b1d5a2ac54412ac33b",
+            "FileCRC": "01cc1acf",
+            "FileSize": 2376,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                5,
+                15,
+                21,
+                20,
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_assets_data_prefab_items.bundle",
+            "UnityCRC": 1221892094,
+            "FileHash": "def27146bd89c194e40885b97e20f17f",
+            "FileCRC": "7fbc17ea",
+            "FileSize": 4425,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                15,
+                21,
+                20,
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_assets_scripts_inputsystem.bundle",
+            "UnityCRC": 3824204214,
+            "FileHash": "6a3e4b6dc4f5f3a368859176c4f6bf8e",
+            "FileCRC": "8c4266d5",
+            "FileSize": 4351,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle",
+            "UnityCRC": 564551083,
+            "FileHash": "43d74a01f22ac94aefed22cadcf28907",
+            "FileCRC": "53e6a711",
+            "FileSize": 7461,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+            "UnityCRC": 1873799198,
+            "FileHash": "3c197b87e8510b0558dff1b4faf43b71",
+            "FileCRC": "f52e672c",
+            "FileSize": 76559,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_others_textmesh pro_fonts.bundle",
+            "UnityCRC": 1762814988,
+            "FileHash": "0a51d297428b8aeb68ce7bc9d9d5a916",
+            "FileCRC": "df7ed759",
+            "FileSize": 227273,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

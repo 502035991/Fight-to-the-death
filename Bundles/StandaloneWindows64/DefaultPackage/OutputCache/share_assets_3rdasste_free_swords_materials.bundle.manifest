@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 876030778
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 67f96e858c2991b3ad08e4ea75f634df
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/3rdAsste/Free_Swords/Materials/PP_Standard_Material.mat
+Dependencies:
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_free_swords_textures.bundle
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/unityshaders.bundle

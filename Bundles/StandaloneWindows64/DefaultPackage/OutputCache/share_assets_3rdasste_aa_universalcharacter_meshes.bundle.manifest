@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3711386123
+CRC: 951849080
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b3d4f868401fb4fde29e0f3b638e1a20
+    Hash: bda08cd527f0dc667d8ad8e7570eb202
   TypeTreeHash:
     serializedVersion: 2
     Hash: b757fe907c8f9a2089958beaaeb052d4
@@ -27,4 +27,5 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx
 Dependencies:
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_aa_universalcharacter_materials.bundle
 - C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle

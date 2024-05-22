@@ -10,6 +10,10 @@ namespace CX
         [HideInInspector] public PlayerAnimatorManager playerAnimatorManager;
         [HideInInspector] public PlayerNetworkManager playerNetworkManager;
         [HideInInspector] public PlayerStatsManager playerStatsManager;
+        [HideInInspector] public PlayerInventoryManager playerInventoryManager;
+        [HideInInspector] public PlayerEquipmentManager playerEquipmentManager;
+
+        public bool switchRightWeapon;
 
         protected override void Awake()
         {
@@ -18,6 +22,8 @@ namespace CX
             playerAnimatorManager = GetComponent<PlayerAnimatorManager>();
             playerNetworkManager = GetComponent<PlayerNetworkManager>();
             playerStatsManager = GetComponent<PlayerStatsManager>();
+            playerInventoryManager = GetComponent<PlayerInventoryManager>();
+            playerEquipmentManager = GetComponent<PlayerEquipmentManager>();
         }
         protected override void Update()
         {
@@ -28,6 +34,8 @@ namespace CX
             }
             playerLocomotionManager.HandleAllMovement();
             playerStatsManager.RegenerateStamina();
+
+            DebugMenu();
         }
         protected override void LateUpdate()
         {
@@ -55,6 +63,8 @@ namespace CX
                 playerNetworkManager.currentStamina.OnValueChanged += playerStatsManager.ResetStaminaRegenerationTimer;
             }
             playerNetworkManager.currentHealth.OnValueChanged += playerNetworkManager.CheckHP;
+            playerNetworkManager.currentRightHandWeaponID.OnValueChanged += playerNetworkManager.OnCurrentRightHandWeaponIDChange;
+            playerNetworkManager.currentLeftHandWeaponID.OnValueChanged += playerNetworkManager.OnCurrentLeftHandWeaponIDChange;
         }
         public override IEnumerator ProcessDeathEvent(bool manuallySelectDeathAnimation = false)
         {
@@ -97,6 +107,14 @@ namespace CX
             PlayerUIManager.instance.PlayerUIHudManager.SetMaxStaminaValue(playerNetworkManager.maxStamina.Value);
         }
 
+        private void DebugMenu()
+        {
+            if(switchRightWeapon)
+            {
+                switchRightWeapon = false;
+                playerEquipmentManager.SwitchRightWeapon();
+            }
+        }
     }
 }
 

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1580868556
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c5ce2c4bd5db3f5729a1d002b89c81a9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9ccf1d0a56eff027608c418d5792a929
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 220fa08b0e62f1645979f15f14aaaa0f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae24ae172dc98cb4eadfd018e8b03fa5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Effects/Take Damage Effect.asset
+- Assets/Data/Effects/Take Stamina Damage Effect.asset
+Dependencies: []

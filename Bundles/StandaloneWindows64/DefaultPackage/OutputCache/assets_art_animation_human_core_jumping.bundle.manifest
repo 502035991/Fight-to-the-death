@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3667146670
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d55bbcbf97a582172a206d2e8cd48cab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00a543950720c505626c77e744ca79fc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Animation/human/Core/Jumping/Main_Jump_Start.fbx
+- Assets/Art/Animation/human/Core/Jumping/Main_Jump_Up.fbx
+- Assets/Art/Animation/human/Core/Jumping/Main_Jump_Land.fbx
+- Assets/Art/Animation/human/Core/Jumping/Main_Jump_Idle.fbx
+- Assets/Art/Animation/human/Core/Jumping/Main_Jump_Fall.fbx
+Dependencies:
+- C:/Users/50203/Desktop/Fight to the death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rdasste_aa_universalcharacter_meshes.bundle

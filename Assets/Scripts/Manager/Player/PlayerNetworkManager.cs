@@ -11,6 +11,10 @@ namespace CX
         PlayerManager player;
         public NetworkVariable<FixedString64Bytes> characterName = new NetworkVariable<FixedString64Bytes>("Character", NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
 
+        [Header("×°±¸")]
+        public NetworkVariable<int> currentRightHandWeaponID = new NetworkVariable<int>(0, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
+        public NetworkVariable<int> currentLeftHandWeaponID = new NetworkVariable<int>(0, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
+
         protected override void Awake()
         {
             base.Awake();
@@ -27,6 +31,19 @@ namespace CX
             maxStamina.Value = player.playerStatsManager.CalculateStaminaBasedOnEndurancelevel(newValue);
             PlayerUIManager.instance.PlayerUIHudManager.SetMaxStaminaValue(maxStamina.Value);
             currentStamina.Value = maxStamina.Value;
+        }
+        public void OnCurrentRightHandWeaponIDChange(int oldValue , int newValue)
+        {
+            WeaponItem newWeapon = Instantiate(WorldItemDatabase.instance.GetWeaponByID(newValue));
+            player.playerInventoryManager.currentRightHandWeapon = newWeapon; 
+            player.playerEquipmentManager.LoadRightWeapon();
+        }
+        public void OnCurrentLeftHandWeaponIDChange(int oldValue ,int newValue)
+        {
+            WeaponItem newWeapon = Instantiate(WorldItemDatabase.instance.GetWeaponByID(newValue));
+            player.playerInventoryManager.currentLeftHandWeapon = newWeapon;
+            player.playerEquipmentManager.LoadLeftWeapon();
+
         }
     }
 }

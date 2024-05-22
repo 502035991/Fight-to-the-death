@@ -1,0 +1,816 @@
+{
+    "Summary": {
+        "YooVersion": "2.1.1",
+        "UnityVersion": "2022.3.2f1",
+        "BuildDate": "2024/5/21 16:23:13",
+        "BuildSeconds": 5,
+        "BuildTarget": 19,
+        "BuildMode": 0,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2024-05-21-983",
+        "UniqueBundleName": false,
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "IgnoreDefaultType": true,
+        "AutoCollectShaders": true,
+        "EnableSharePackRule": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 50,
+        "MainAssetTotalCount": 17,
+        "AllBundleTotalCount": 29,
+        "AllBundleTotalSize": 2314626,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "GameScene",
+            "AssetPath": "Assets/Scenes/GameScene.unity",
+            "AssetGUID": "4757f41d843dda34eb19fd35cc6466ea",
+            "AssetTags": [],
+            "MainBundleName": "assets_scenes.bundle",
+            "MainBundleSize": 260300,
+            "DependAssets": [
+                "Assets/Others/material/New Material.mat",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "MainScene",
+            "AssetPath": "Assets/Scenes/MainScene.unity",
+            "AssetGUID": "99c9720ab356a0642a771bea13969a05",
+            "AssetTags": [],
+            "MainBundleName": "assets_scenes.bundle",
+            "MainBundleSize": 260300,
+            "DependAssets": [
+                "Assets/Data/Effects/Take Damage Effect.asset",
+                "Assets/Art/Audio/SoundFX/Actions/S_Waving_Torch_Mono_1.wav",
+                "Assets/Others/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+                "Assets/Data/Prefab/Player.prefab",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/Data/Prefab/WorldManager/Player Input Manager.prefab",
+                "Assets/Data/Prefab/WorldManager/World Character Effect Manager.prefab",
+                "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Idle.fbx",
+                "Assets/3rdAsste/Free_Swords/Materials/PP_Standard_Material.mat",
+                "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Start.fbx",
+                "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Up.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Assets/Data/Prefab/WorldManager/Netcode Manager.prefab",
+                "Assets/Data/Anitation Controller/Human.controller",
+                "Assets/Others/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader",
+                "Assets/Data/Effects/Take Stamina Damage Effect.asset",
+                "Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputSystemUIInputModule@64.png",
+                "Assets/3rdAsste/Free_Swords/Textures/PP_Color_Palette.png",
+                "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Land.fbx",
+                "Assets/Data/Prefab/WorldManager/World Sound FX Manager.prefab",
+                "Assets/Art/Animation/human/New Core Sword&Shield/Idle_Base.fbx",
+                "Assets/Data/Prefab/WorldManager/Player UI Manager.prefab",
+                "Assets/Others/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+                "Assets/3rdAsste/Free_Swords/Meshes/PP_Sword_0363.fbx",
+                "Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputAction.png",
+                "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Fall.fbx",
+                "Assets/DefaultNetworkPrefabs.asset",
+                "Assets/Data/Items/Weapons/Straight Sword.asset",
+                "Assets/Data/Prefab/Items/Weapon_Straight_Sword.prefab",
+                "Assets/Scripts/InputSystem/PlayerControls.inputactions",
+                "Assets/Data/Prefab/Save Slot.prefab",
+                "Assets/Art/UI Sprites/Icon/Items/SWORD 4.png",
+                "Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Assets/Data/Prefab/WorldManager/World Save Game Manager.prefab",
+                "Assets/Art/Animation/human/Core/Dead.fbx",
+                "Assets/Art/Animation/human/New Core Sword&Shield/NewWalking.fbx",
+                "Assets/Others/TextMesh Pro/Fonts/LiberationSans.ttf",
+                "Assets/Art/Animation/human/Core/Rool.fbx"
+            ]
+        },
+        {
+            "Address": "Dead",
+            "AssetPath": "Assets/Art/Animation/human/Core/Dead.fbx",
+            "AssetGUID": "f8392c37498e2284f9389ca48845f958",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_core.bundle",
+            "MainBundleSize": 287414,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Idle",
+            "AssetPath": "Assets/Art/Animation/human/Core/Idle.fbx",
+            "AssetGUID": "bbf54035678568f40b7e016323507181",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_core.bundle",
+            "MainBundleSize": 287414,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Rool",
+            "AssetPath": "Assets/Art/Animation/human/Core/Rool.fbx",
+            "AssetGUID": "12baef73cb95a9d4d9f3e5ab9d1e7972",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_core.bundle",
+            "MainBundleSize": 287414,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Main_Jump_Fall",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Fall.fbx",
+            "AssetGUID": "e7580256098ff1a4388ae9d8f3f74b0b",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_core_jumping.bundle",
+            "MainBundleSize": 71571,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Main_Jump_Idle",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Idle.fbx",
+            "AssetGUID": "2ceecd812beb174489f11bd7e1439990",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_core_jumping.bundle",
+            "MainBundleSize": 71571,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Main_Jump_Land",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Land.fbx",
+            "AssetGUID": "b10484326eb3e3c46bab53d96bac1faf",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_core_jumping.bundle",
+            "MainBundleSize": 71571,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Main_Jump_Start",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Start.fbx",
+            "AssetGUID": "22e8d162334a29e4b94884e0511e003f",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_core_jumping.bundle",
+            "MainBundleSize": 71571,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Main_Jump_Up",
+            "AssetPath": "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Up.fbx",
+            "AssetGUID": "cb171e69775b9944487f535e1ea118f9",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_core_jumping.bundle",
+            "MainBundleSize": 71571,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Idle_Base",
+            "AssetPath": "Assets/Art/Animation/human/New Core Sword&Shield/Idle_Base.fbx",
+            "AssetGUID": "8435a51d11c62c34f89f664943621b5f",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_new core sword&shield.bundle",
+            "MainBundleSize": 194395,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Idle_Long_01",
+            "AssetPath": "Assets/Art/Animation/human/New Core Sword&Shield/Idle_Long_01.fbx",
+            "AssetGUID": "25baeeb48647e954981d427522ab5cf7",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_new core sword&shield.bundle",
+            "MainBundleSize": 194395,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Idle_Long_02",
+            "AssetPath": "Assets/Art/Animation/human/New Core Sword&Shield/Idle_Long_02.fbx",
+            "AssetGUID": "98a7ee41923f82944b175834915eeb5a",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_new core sword&shield.bundle",
+            "MainBundleSize": 194395,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "NewWalking",
+            "AssetPath": "Assets/Art/Animation/human/New Core Sword&Shield/NewWalking.fbx",
+            "AssetGUID": "a5fc43626b113394ebd4d5c7a85510db",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_animation_human_new core sword&shield.bundle",
+            "MainBundleSize": 194395,
+            "DependAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat",
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx",
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "S_Waving_Torch_Mono_1",
+            "AssetPath": "Assets/Art/Audio/SoundFX/Actions/S_Waving_Torch_Mono_1.wav",
+            "AssetGUID": "7191f1c95c8d1304b8d82795e5e78fba",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_audio_soundfx_actions.bundle",
+            "MainBundleSize": 35985,
+            "DependAssets": []
+        },
+        {
+            "Address": "SWORD 4",
+            "AssetPath": "Assets/Art/UI Sprites/Icon/Items/SWORD 4.png",
+            "AssetGUID": "e18bd65f98ca4174d8102686f3a63750",
+            "AssetTags": [],
+            "MainBundleName": "assets_art_ui sprites_icon_items.bundle",
+            "MainBundleSize": 5046,
+            "DependAssets": []
+        },
+        {
+            "Address": "ParrelSyncProjectSettings",
+            "AssetPath": "Assets/Plugins/ParrelSync/ScriptableObjects/ParrelSyncProjectSettings.asset",
+            "AssetGUID": "45d75a110524e564cbc34d64c234f979",
+            "AssetTags": [],
+            "MainBundleName": "assets_plugins_parrelsync_scriptableobjects.bundle",
+            "MainBundleSize": 1069,
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_scenes.bundle",
+            "FileName": "a92ac88920c54635f9ac6b00fab73958.bundle",
+            "FileHash": "a92ac88920c54635f9ac6b00fab73958",
+            "FileCRC": "e5e6b906",
+            "FileSize": 260300,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_art_animation_human_core.bundle",
+                "assets_art_animation_human_core_jumping.bundle",
+                "assets_art_animation_human_new core sword&shield.bundle",
+                "assets_art_audio_soundfx_actions.bundle",
+                "assets_art_ui sprites_icon_items.bundle",
+                "share_assets.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "share_assets_3rdasste_free_swords_materials.bundle",
+                "share_assets_3rdasste_free_swords_meshes.bundle",
+                "share_assets_3rdasste_free_swords_textures.bundle",
+                "share_assets_data_anitation controller.bundle",
+                "share_assets_data_effects.bundle",
+                "share_assets_data_items_weapons.bundle",
+                "share_assets_data_prefab.bundle",
+                "share_assets_data_prefab_worldmanager.bundle",
+                "share_assets_others_material.bundle",
+                "share_assets_others_textmesh pro_fonts.bundle",
+                "share_assets_others_textmesh pro_resources_fonts & materials.bundle",
+                "share_assets_scripts_inputsystem.bundle",
+                "share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Scenes/GameScene.unity",
+                "Assets/Scenes/MainScene.unity"
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_human_core.bundle",
+            "FileName": "945eb83747115b7f7c0c8d59d8fdd560.bundle",
+            "FileHash": "945eb83747115b7f7c0c8d59d8fdd560",
+            "FileCRC": "fb5c07c5",
+            "FileSize": 287414,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Art/Animation/human/Core/Dead.fbx",
+                "Assets/Art/Animation/human/Core/Idle.fbx",
+                "Assets/Art/Animation/human/Core/Rool.fbx"
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_human_core_jumping.bundle",
+            "FileName": "b15245c5e5d192e96fc031479038d609.bundle",
+            "FileHash": "b15245c5e5d192e96fc031479038d609",
+            "FileCRC": "1cfc4f1e",
+            "FileSize": 71571,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Fall.fbx",
+                "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Idle.fbx",
+                "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Land.fbx",
+                "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Start.fbx",
+                "Assets/Art/Animation/human/Core/Jumping/Main_Jump_Up.fbx"
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_human_new core sword&shield.bundle",
+            "FileName": "289bd0e5780e772383eafc8b2f043ab3.bundle",
+            "FileHash": "289bd0e5780e772383eafc8b2f043ab3",
+            "FileCRC": "f3e39382",
+            "FileSize": 194395,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Art/Animation/human/New Core Sword&Shield/Idle_Base.fbx",
+                "Assets/Art/Animation/human/New Core Sword&Shield/Idle_Long_01.fbx",
+                "Assets/Art/Animation/human/New Core Sword&Shield/Idle_Long_02.fbx",
+                "Assets/Art/Animation/human/New Core Sword&Shield/NewWalking.fbx"
+            ]
+        },
+        {
+            "BundleName": "assets_art_audio_soundfx_actions.bundle",
+            "FileName": "af4c81721d2906e045d5fc144de7c730.bundle",
+            "FileHash": "af4c81721d2906e045d5fc144de7c730",
+            "FileCRC": "7d2fb5c8",
+            "FileSize": 35985,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Art/Audio/SoundFX/Actions/S_Waving_Torch_Mono_1.wav"
+            ]
+        },
+        {
+            "BundleName": "assets_art_ui sprites_icon_items.bundle",
+            "FileName": "82e1eb67ad3e73f4a6656ca68aec9af9.bundle",
+            "FileHash": "82e1eb67ad3e73f4a6656ca68aec9af9",
+            "FileCRC": "7c4acb53",
+            "FileSize": 5046,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Art/UI Sprites/Icon/Items/SWORD 4.png"
+            ]
+        },
+        {
+            "BundleName": "assets_plugins_parrelsync_scriptableobjects.bundle",
+            "FileName": "817578bce8bd029246f5f7ab156bd98e.bundle",
+            "FileHash": "817578bce8bd029246f5f7ab156bd98e",
+            "FileCRC": "91f8c058",
+            "FileSize": 1069,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Plugins/ParrelSync/ScriptableObjects/ParrelSyncProjectSettings.asset"
+            ]
+        },
+        {
+            "BundleName": "share_assets_others_material.bundle",
+            "FileName": "635d6f57df40b7864df663bb8739d42a.bundle",
+            "FileHash": "635d6f57df40b7864df663bb8739d42a",
+            "FileCRC": "8890bf33",
+            "FileSize": 2942,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Others/material/New Material.mat"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "FileName": "c1b7e2f819cc052f2c2eb5c242af02be.bundle",
+            "FileHash": "c1b7e2f819cc052f2c2eb5c242af02be",
+            "FileCRC": "f455db2e",
+            "FileSize": 3022,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat"
+            ]
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "FileName": "89e56b64aa9f4ae38670375cf42f60c4.bundle",
+            "FileHash": "89e56b64aa9f4ae38670375cf42f60c4",
+            "FileCRC": "2eba5db5",
+            "FileSize": 46302,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader",
+                "Assets/Others/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+            ]
+        },
+        {
+            "BundleName": "share_assets_data_effects.bundle",
+            "FileName": "5d45fe3560b406254507a9e352c20654.bundle",
+            "FileHash": "5d45fe3560b406254507a9e352c20654",
+            "FileCRC": "d88dc497",
+            "FileSize": 2410,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Data/Effects/Take Damage Effect.asset",
+                "Assets/Data/Effects/Take Stamina Damage Effect.asset"
+            ]
+        },
+        {
+            "BundleName": "share_assets_data_prefab.bundle",
+            "FileName": "6a44d657fde66b1d252591a6e75c8ef9.bundle",
+            "FileHash": "6a44d657fde66b1d252591a6e75c8ef9",
+            "FileCRC": "e31603e4",
+            "FileSize": 33807,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_art_animation_human_core.bundle",
+                "assets_art_animation_human_core_jumping.bundle",
+                "assets_art_animation_human_new core sword&shield.bundle",
+                "assets_art_ui sprites_icon_items.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "share_assets_3rdasste_free_swords_materials.bundle",
+                "share_assets_3rdasste_free_swords_meshes.bundle",
+                "share_assets_3rdasste_free_swords_textures.bundle",
+                "share_assets_data_anitation controller.bundle",
+                "share_assets_data_items_weapons.bundle",
+                "share_assets_others_textmesh pro_fonts.bundle",
+                "share_assets_others_textmesh pro_resources_fonts & materials.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Data/Prefab/Player.prefab",
+                "Assets/Data/Prefab/Save Slot.prefab"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle",
+            "FileName": "8e35a1422657d539c3ebf0a70181bb1a.bundle",
+            "FileHash": "8e35a1422657d539c3ebf0a70181bb1a",
+            "FileCRC": "1df4357c",
+            "FileSize": 5557,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd"
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+            "FileName": "ab77023fd18e81cef0385867642ad80b.bundle",
+            "FileHash": "ab77023fd18e81cef0385867642ad80b",
+            "FileCRC": "dddcb5d5",
+            "FileSize": 541558,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Meshes/UniversalCharacter.fbx"
+            ]
+        },
+        {
+            "BundleName": "share_assets_data_prefab_worldmanager.bundle",
+            "FileName": "e438968077b1e6225fb2fbec8bd4d223.bundle",
+            "FileHash": "e438968077b1e6225fb2fbec8bd4d223",
+            "FileCRC": "89d7eb52",
+            "FileSize": 13316,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_art_audio_soundfx_actions.bundle",
+                "share_assets_data_effects.bundle",
+                "share_assets_others_textmesh pro_fonts.bundle",
+                "share_assets_others_textmesh pro_resources_fonts & materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Data/Prefab/WorldManager/Player Input Manager.prefab",
+                "Assets/Data/Prefab/WorldManager/World Character Effect Manager.prefab",
+                "Assets/Data/Prefab/WorldManager/Netcode Manager.prefab",
+                "Assets/Data/Prefab/WorldManager/World Sound FX Manager.prefab",
+                "Assets/Data/Prefab/WorldManager/Player UI Manager.prefab",
+                "Assets/Data/Prefab/WorldManager/World Save Game Manager.prefab"
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_free_swords_materials.bundle",
+            "FileName": "c3e5908014974046b9e294c2c964af43.bundle",
+            "FileHash": "c3e5908014974046b9e294c2c964af43",
+            "FileCRC": "c4260f8d",
+            "FileSize": 3001,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_3rdasste_free_swords_textures.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/3rdAsste/Free_Swords/Materials/PP_Standard_Material.mat"
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+            "FileName": "316bfa90bef401345d3c9fa093e489aa.bundle",
+            "FileHash": "316bfa90bef401345d3c9fa093e489aa",
+            "FileCRC": "bec0fa37",
+            "FileSize": 3011,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Materials/UniversalCharacterMaterial.mat"
+            ]
+        },
+        {
+            "BundleName": "share_assets_data_anitation controller.bundle",
+            "FileName": "6a4cdff52183616db4ad4d8795c4173d.bundle",
+            "FileHash": "6a4cdff52183616db4ad4d8795c4173d",
+            "FileCRC": "e2cd97bf",
+            "FileSize": 6720,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_art_animation_human_core.bundle",
+                "assets_art_animation_human_core_jumping.bundle",
+                "assets_art_animation_human_new core sword&shield.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_materials.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_meshes.bundle",
+                "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Data/Anitation Controller/Human.controller"
+            ]
+        },
+        {
+            "BundleName": "share_assets_others_textmesh pro_resources_fonts & materials.bundle",
+            "FileName": "b9417e80fd5d48c38fe47bd4c9c4d33d.bundle",
+            "FileHash": "b9417e80fd5d48c38fe47bd4c9c4d33d",
+            "FileCRC": "3d7e79ef",
+            "FileSize": 384786,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_others_textmesh pro_fonts.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Others/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+                "Assets/Others/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_inputsystem_inputsystem_editor_icons.bundle",
+            "FileName": "367b9d31ced7894d9f33512a927dffaa.bundle",
+            "FileHash": "367b9d31ced7894d9f33512a927dffaa",
+            "FileCRC": "194ebbb0",
+            "FileSize": 34394,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputSystemUIInputModule@64.png",
+                "Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputAction.png"
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_free_swords_textures.bundle",
+            "FileName": "1c0b230129f6fd645974d4dd5423a2ea.bundle",
+            "FileHash": "1c0b230129f6fd645974d4dd5423a2ea",
+            "FileCRC": "7c7b27a8",
+            "FileSize": 9910,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/3rdAsste/Free_Swords/Textures/PP_Color_Palette.png"
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_free_swords_meshes.bundle",
+            "FileName": "9cf6d2ac80376e48f5d58d4adae11eaa.bundle",
+            "FileHash": "9cf6d2ac80376e48f5d58d4adae11eaa",
+            "FileCRC": "56563613",
+            "FileSize": 43669,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/3rdAsste/Free_Swords/Meshes/PP_Sword_0363.fbx"
+            ]
+        },
+        {
+            "BundleName": "share_assets.bundle",
+            "FileName": "84183a51a305ddd7c85918c5d2f65852.bundle",
+            "FileHash": "84183a51a305ddd7c85918c5d2f65852",
+            "FileCRC": "778b0894",
+            "FileSize": 1996,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/DefaultNetworkPrefabs.asset"
+            ]
+        },
+        {
+            "BundleName": "share_assets_data_items_weapons.bundle",
+            "FileName": "4986adaec3fb47b1d5a2ac54412ac33b.bundle",
+            "FileHash": "4986adaec3fb47b1d5a2ac54412ac33b",
+            "FileCRC": "01cc1acf",
+            "FileSize": 2376,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_art_ui sprites_icon_items.bundle",
+                "share_assets_3rdasste_free_swords_materials.bundle",
+                "share_assets_3rdasste_free_swords_meshes.bundle",
+                "share_assets_3rdasste_free_swords_textures.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Data/Items/Weapons/Straight Sword.asset"
+            ]
+        },
+        {
+            "BundleName": "share_assets_data_prefab_items.bundle",
+            "FileName": "def27146bd89c194e40885b97e20f17f.bundle",
+            "FileHash": "def27146bd89c194e40885b97e20f17f",
+            "FileCRC": "7fbc17ea",
+            "FileSize": 4425,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_3rdasste_free_swords_materials.bundle",
+                "share_assets_3rdasste_free_swords_meshes.bundle",
+                "share_assets_3rdasste_free_swords_textures.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Data/Prefab/Items/Weapon_Straight_Sword.prefab"
+            ]
+        },
+        {
+            "BundleName": "share_assets_scripts_inputsystem.bundle",
+            "FileName": "6a3e4b6dc4f5f3a368859176c4f6bf8e.bundle",
+            "FileHash": "6a3e4b6dc4f5f3a368859176c4f6bf8e",
+            "FileCRC": "8c4266d5",
+            "FileSize": 4351,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Scripts/InputSystem/PlayerControls.inputactions"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle",
+            "FileName": "43d74a01f22ac94aefed22cadcf28907.bundle",
+            "FileHash": "43d74a01f22ac94aefed22cadcf28907",
+            "FileCRC": "53e6a711",
+            "FileSize": 7461,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions"
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rdasste_aa_universalcharacter_textures.bundle",
+            "FileName": "3c197b87e8510b0558dff1b4faf43b71.bundle",
+            "FileHash": "3c197b87e8510b0558dff1b4faf43b71",
+            "FileCRC": "f52e672c",
+            "FileSize": 76559,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/3rdAsste/AA_UniversalCharacter/Textures/UniversalCharacterTexture.png"
+            ]
+        },
+        {
+            "BundleName": "share_assets_others_textmesh pro_fonts.bundle",
+            "FileName": "0a51d297428b8aeb68ce7bc9d9d5a916.bundle",
+            "FileHash": "0a51d297428b8aeb68ce7bc9d9d5a916",
+            "FileCRC": "df7ed759",
+            "FileSize": 227273,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Others/TextMesh Pro/Fonts/LiberationSans.ttf"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

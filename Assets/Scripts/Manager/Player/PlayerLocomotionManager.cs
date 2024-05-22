@@ -53,6 +53,7 @@ namespace CX
             }    
             else
             {
+                //从服务器拿到值，返回到另一个玩家
                 verticalMovement = player.characterNetworkManager.verticalMovement.Value;
                 horizontalMovement =player.characterNetworkManager.horizontalMovement.Value;
                 moveAmout = player.characterNetworkManager.moveAmount.Value;

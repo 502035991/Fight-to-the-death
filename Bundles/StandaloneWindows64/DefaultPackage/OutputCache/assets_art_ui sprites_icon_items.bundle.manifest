@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 719114428
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 111f885adb7544365c06d0767fd57416
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/UI Sprites/Icon/Items/SWORD 4.png
+Dependencies: []
