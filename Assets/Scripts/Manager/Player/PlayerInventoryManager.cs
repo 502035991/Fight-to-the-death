@@ -5,7 +5,7 @@ using UnityEngine;
 namespace CX
 {
     /// <summary>
-    /// 仓库管理器
+    /// 左下角背包管理器
     /// </summary>
     public class PlayerInventoryManager : CharacterInventoryManager
     {

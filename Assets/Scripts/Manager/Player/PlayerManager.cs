@@ -12,6 +12,7 @@ namespace CX
         [HideInInspector] public PlayerStatsManager playerStatsManager;
         [HideInInspector] public PlayerInventoryManager playerInventoryManager;
         [HideInInspector] public PlayerEquipmentManager playerEquipmentManager;
+        [HideInInspector] public PlayerCombatManager playerCombatManager;
 
         public bool switchRightWeapon;
 
@@ -24,6 +25,7 @@ namespace CX
             playerStatsManager = GetComponent<PlayerStatsManager>();
             playerInventoryManager = GetComponent<PlayerInventoryManager>();
             playerEquipmentManager = GetComponent<PlayerEquipmentManager>();
+            playerCombatManager = GetComponent<PlayerCombatManager>();
         }
         protected override void Update()
         {
@@ -63,8 +65,15 @@ namespace CX
                 playerNetworkManager.currentStamina.OnValueChanged += playerStatsManager.ResetStaminaRegenerationTimer;
             }
             playerNetworkManager.currentHealth.OnValueChanged += playerNetworkManager.CheckHP;
+
             playerNetworkManager.currentRightHandWeaponID.OnValueChanged += playerNetworkManager.OnCurrentRightHandWeaponIDChange;
             playerNetworkManager.currentLeftHandWeaponID.OnValueChanged += playerNetworkManager.OnCurrentLeftHandWeaponIDChange;
+            playerNetworkManager.currentWeaponBeingUsed.OnValueChanged += playerNetworkManager.OnCurrentWeaponBeingUsedIDChange;
+
+            if(IsOwner && !IsServer)
+            {
+                LoadGameDataToCurrentCharacterData(ref WorldSaveGameManager.instance.currentCharacterData);
+            }
         }
         public override IEnumerator ProcessDeathEvent(bool manuallySelectDeathAnimation = false)
         {

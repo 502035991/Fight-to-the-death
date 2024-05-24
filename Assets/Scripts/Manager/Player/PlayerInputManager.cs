@@ -25,6 +25,7 @@ namespace CX
         [SerializeField] bool dodgeInput;
         [SerializeField] bool sprintInput;
         [SerializeField] bool jumpInput;
+        [SerializeField] bool RB_Input = false;
 
         private void Awake()
         {
@@ -43,16 +44,24 @@ namespace CX
             SceneManager.activeSceneChanged += OnSceneChange;
 
             instance.enabled = false;
+            if(playerControls!= null)
+                playerControls.Disable();
         }
         private void OnSceneChange(Scene oldScene, Scene newScene)
         {
             if (newScene.name == "GameScene")
             {
                 instance.enabled = true;
+
+                if (playerControls != null)
+                    playerControls.Enable();
             }
             else
             {
                 instance.enabled = false;
+
+                if (playerControls != null)
+                    playerControls.Disable();
             }
         }
         private void OnEnable()
@@ -65,6 +74,7 @@ namespace CX
                 playerControls.PlayerCamera.CameraControls.performed += i => cameraInput = i.ReadValue<Vector2>();
                 playerControls.PlayerActions.Dodge.performed += i => dodgeInput = true;
                 playerControls.PlayerActions.Jump.performed += i => jumpInput = true;
+                playerControls.PlayerActions.RB.performed += i => RB_Input = true;
 
                 //°´×¡ºó
                 playerControls.PlayerActions.Sprint.performed += i => sprintInput = true;
@@ -80,6 +90,7 @@ namespace CX
             HandleDodgeInput();
             HnadleSprintInput();
             HandleJumpInput();
+            HandleRBInput();
         }
         private void OnDestroy()
         {
@@ -154,6 +165,18 @@ namespace CX
             {
                 jumpInput =false;
                 player.playerLocomotionManager.AttemptToPerformJump();
+            }
+        }
+        private void HandleRBInput()
+        {
+            if(RB_Input)
+            {
+                RB_Input = false;
+
+                player.playerNetworkManager.SetCharacterActionHand(true);
+
+
+                player.playerCombatManager.PerformWeaponBasedAction(player.playerInventoryManager.currentRightHandWeapon.rb_Action, player.playerInventoryManager.currentRightHandWeapon);
             }
         }
     }

@@ -55,7 +55,7 @@ namespace CX
         {
             if (!player.IsOwner)
                 return;
-            player.playerAnimatorManager.PlayerTargetActionAnimation("Swap_Right_Weapon", false ,false);
+            player.playerAnimatorManager.PlayerTargetActionAnimation("Swap_Right_Weapon", true ,false);
 
             WeaponItem selectedWeapon = null;
             player.playerInventoryManager.rightHandWeaponIndex += 1;

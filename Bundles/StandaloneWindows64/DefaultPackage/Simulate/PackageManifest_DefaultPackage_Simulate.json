@@ -121,6 +121,13 @@
             "BundleID": 4
         },
         {
+            "Address": "Main_Light_Attack_01",
+            "AssetPath": "Assets/Art/Animation/human/Damage/Main_Light_Attack_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
             "Address": "Swap_Right_Weapon",
             "AssetPath": "Assets/Art/Animation/human/Damage/Swap_Right_Weapon.fbx",
             "AssetGUID": "",
@@ -155,7 +162,7 @@
             "UnityCRC": 0,
             "FileHash": "19f37db822f680cb77186410684d00e3",
             "FileCRC": "00000000",
-            "FileSize": 630392,
+            "FileSize": 633544,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -205,7 +212,7 @@
             "UnityCRC": 0,
             "FileHash": "592657928c6b05215abab2f783149f13",
             "FileCRC": "00000000",
-            "FileSize": 295648,
+            "FileSize": 642384,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []

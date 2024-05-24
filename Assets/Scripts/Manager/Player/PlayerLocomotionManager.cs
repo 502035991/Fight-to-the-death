@@ -104,7 +104,7 @@ namespace CX
         }
         private void HandleJumpingMovement()
         {
-            if (player.isJumping)
+            if (player.characterNetworkManager.isJumping.Value)
             {
                 player.characterController.Move(jumpDirection* jumpForwardSpeed * Time.deltaTime);
             }
@@ -200,14 +200,14 @@ namespace CX
                 return;
             if (player.playerNetworkManager.currentStamina.Value <= 0)
                 return;
-            if (player.isJumping)
+            if (player.characterNetworkManager.isJumping.Value)
                 return;
             if (!player.isGrounded)
                 return;
 
-            player.playerAnimatorManager.PlayerTargetActionAnimation("Main_Jump_Start", false);
+            player.playerAnimatorManager.PlayerTargetActionAnimation("Main_Jump_Start", true);
 
-            player.isJumping = true;
+            player.characterNetworkManager.isJumping.Value = true;
 
             player.playerNetworkManager.currentStamina.Value -= jumpStaminaCost;
 

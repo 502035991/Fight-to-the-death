@@ -38,12 +38,27 @@ namespace CX
             character.anim.CrossFade(targetAnimation, 0.2f);
             //开启后，如果动画带位移，则人物胶囊体会跟随
             character.applyRootMotion = applyRootMotion;
-            //为True会打断其他动作
+            //为fales会打断其他动作
             character.isPerformingAction =isPerformingAction;
             character.canRotate = canRotate;
             character.canMove = canMove;
 
+            //客户端的动画请求发送到服务器。
+            character.characterNetworkManager.NotifyTheServerOfACtionAnimationServerRpc(NetworkManager.Singleton.LocalClientId, targetAnimation, applyRootMotion);
+        }
+        public virtual void PlayerTargetAttackActionAnimation(string targetAnimation, bool isPerformingAction, bool applyRootMotion = true, bool canRotate = false, bool canMove = false)
+        {
 
+            //在后续 time 秒的时间段内，使名称为 animation 的动画淡入，使其他动画淡出。
+            character.anim.CrossFade(targetAnimation, 0.2f);
+            //开启后，如果动画带位移，则人物胶囊体会跟随
+            character.applyRootMotion = applyRootMotion;
+            //为false会打断其他动作
+            character.isPerformingAction = isPerformingAction;
+            character.canRotate = canRotate;
+            character.canMove = canMove;
+
+            //客户端的动画请求发送到服务器。
             character.characterNetworkManager.NotifyTheServerOfACtionAnimationServerRpc(NetworkManager.Singleton.LocalClientId, targetAnimation, applyRootMotion);
         }
     }
